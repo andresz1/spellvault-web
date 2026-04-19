@@ -1,4 +1,4 @@
-import { Apple, Check, ChevronRight, MoveHorizontal, X } from "lucide-react";
+import { Check, ChevronRight, MoveHorizontal, X } from "lucide-react";
 import { DynamicIcon, type IconName } from "lucide-react/dynamic";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
@@ -6,10 +6,12 @@ import { Trans, useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { FAQPageJsonLd, NextSeo } from "next-seo";
 import { Fragment } from "react";
+import { FaApple } from "react-icons/fa";
 
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { CustomersMarquee } from "@/components/shared/customers-marquee";
+import { IPhoneFrame } from "@/components/shared/iphone-frame";
 import {
   Accordion,
   AccordionContent,
@@ -31,14 +33,11 @@ import { TextGradient } from "@/components/ui/text-gradient";
 import {
   allDocs,
   allLandings,
-  allTutorials,
   Doc,
   Landing,
-  Tutorial,
 } from "#/.content-collections/generated";
 
 interface LandingPageProps {
-  tutorials: Tutorial[];
   docs: Doc[];
   landings: Landing[];
   data: Landing;
@@ -46,7 +45,6 @@ interface LandingPageProps {
 }
 
 export default function LandingPage({
-  tutorials,
   landings,
   docs,
   data,
@@ -103,75 +101,69 @@ export default function LandingPage({
 
       <Container asChild>
         <main>
-          <div className="relative max-w-3xl mx-auto space-y-8 pt-24 md:pt-28 pb-10 md:pb-14 text-center">
-            <div className="space-y-4">
-              <div className="space-y-2">
-                <div className="flex justify-center items-center">
-                  <Badge className="py-1" variant="outline">
-                    {t("hero.badge")}
-                    <Icon>
-                      <ChevronRight />
-                    </Icon>
-                  </Badge>
+          <section className="relative pb-10 pt-24 md:pb-14 md:pt-28 ">
+            <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-center">
+              <div className="space-y-8 text-center lg:text-left">
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-center lg:justify-start">
+                      <Badge className="py-1" variant="outline">
+                        {t("hero.badge")}
+                        <Icon>
+                          <ChevronRight />
+                        </Icon>
+                      </Badge>
+                    </div>
+
+                    <h1 className="text-3xl md:text-4xl font-bold">
+                      <TextGradient>{hero.title}</TextGradient>
+                    </h1>
+
+                    <p className="text-md md:text-lg text-muted-foreground">
+                      {hero.description}
+                    </p>
+                  </div>
+
+                  <div className="flex items-center justify-center lg:justify-start">
+                    <Button>
+                      <Icon>
+                        <FaApple />
+                      </Icon>
+                      {t("hero.start-button")}
+                    </Button>
+                  </div>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl font-bold">
-                  <TextGradient>{hero.title}</TextGradient>
-                </h1>
+                <div className="flex flex-col gap-4 items-center lg:items-start">
+                  <div className="flex flex-col gap-4 items-center justify-center md:flex-row">
+                    <div className="flex -space-x-1 *:ring *:ring-background">
+                      {Array.from(Array(4).keys()).map((index) => (
+                        <Avatar
+                          className="bg-muted-foreground size-10"
+                          key={index}
+                        >
+                          <AvatarImage
+                            className="object-contain"
+                            src={`/images/home/avatar-0${index + 1}.png`}
+                          />
+                        </Avatar>
+                      ))}
+                    </div>
 
-                <p className="text-md md:text-lg text-muted-foreground">
-                  {hero.description}
-                </p>
+                    <div className="flex flex-col gap-1 items-center lg:items-start">
+                      <Ratings value={5} variant="yellow" />
+
+                      <p className="text-muted-foreground text-sm">
+                        {hero.rating ?? t("hero.rating")}
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center justify-center">
-                <Button className="gap-2">
-                  <Apple className="size-4" />
-                  {t("hero.start-button")}
-                </Button>
-              </div>
+
+              <IPhoneFrame className="lg:ml-auto" />
             </div>
-
-            <div className="flex flex-col gap-4 md:flex-row items-center justify-center">
-              <div className="flex -space-x-1 *:ring *:ring-background">
-                {Array.from(Array(4).keys()).map((index) => (
-                  <Avatar className="bg-muted-foreground size-10" key={index}>
-                    <AvatarImage
-                      className="object-contain"
-                      src={`/images/home/avatar-0${index + 1}.png`}
-                    />
-                  </Avatar>
-                ))}
-              </div>
-
-              <div className="flex flex-col gap-1 items-center">
-                <Ratings value={5} variant="yellow" />
-
-                <p className="text-muted-foreground text-sm">
-                  {t("hero.rating")}
-                </p>
-              </div>
-            </div>
-
-            <div className="pointer-events-none absolute top-0 left-1/2 h-1/2 w-full mix-blend-normal -translate-x-1/2 opacity-15 blur-[120px] bg-[conic-gradient(from_-81deg,#228cfb,#ce54cd_99deg,#e76267_162deg,#ff830c_216deg,#228cfb_288deg)]" />
-          </div>
-
-          <Container className="pb-4 md:pb-8 space-y-4" asChild>
-            <section>
-              <div className="space-y-2 max-w-2xl mx-auto text-center">
-                <h2 className="text-base md:text-lg text-muted-foreground">
-                  <Trans
-                    t={t}
-                    i18nKey="trust.title"
-                    components={{
-                      strong: <strong className="font-semibold" />,
-                    }}
-                  />
-                </h2>
-              </div>
-
-              <CustomersMarquee className="max-w-3xl mx-auto" />
-            </section>
-          </Container>
+          </section>
 
           {sections.map((section, sectionIndex) => (
             <Fragment key={sectionIndex}>

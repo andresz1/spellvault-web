@@ -5,7 +5,8 @@
   "description": "Sigue inventario MTG con menos trabajo manual.",
   "hero": {
     "title": "MTG Inventory Tracker",
-    "description": "Sigue copias, carpetas, stock y exportaciones desde una vista de inventario mucho más clara."
+    "description": "Sigue copias, carpetas, stock y exportaciones desde una vista de inventario mucho más clara.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -30,6 +31,31 @@
           "description": "Pasa de stock en bruto a una colección mucho más clara.",
           "button": "Descarga la app",
           "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Control de inventario para <strong>volumen real de cartas</strong>",
+      "description": "Un buen inventario necesita más que totales. Spellvault te ayuda a entender copias, disponibilidad y dónde vive realmente cada carta.",
+      "items": [
+        {
+          "title": "Sabe qué está disponible",
+          "description": "Ve copias repetidas y stock útil sin reconstruir hojas de cálculo cada vez que las cartas se mueven.",
+          "button": "Descarga la app",
+          "icon": "repeat-2"
+        },
+        {
+          "title": "Mantiene claras las ubicaciones",
+          "description": "Sigue carpetas, binders, cajas e inventario de venta para que las ubicaciones sean fáciles de entender.",
+          "button": "Descarga la app",
+          "icon": "folder-kanban"
+        },
+        {
+          "title": "Exporta cuando importa",
+          "description": "Prepara inventario para revisión, respaldo o venta con mucho menos trabajo manual.",
+          "button": "Descarga la app",
+          "icon": "file-text"
         }
       ]
     },

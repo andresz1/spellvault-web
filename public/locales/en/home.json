@@ -5,136 +5,9 @@
     "badge": "Built for MTG players and collectors",
     "title": "Your entire <strong>Magic universe</strong> in one app",
     "description": "Scan cards, organize collections, and follow prices without spreadsheets or chaos.",
-    "start-button": "Download the app",
+    "start-button": "Download",
     "schedule-demo-button": "Watch demo",
-    "rating": "Built for collectors, stores, and competitive players",
-    "images": {
-      "before": "Before",
-      "after": "After",
-      "items": [
-        {
-          "label": "View AI card scanning example",
-          "before": "/images/home/home-staging-before.jpeg",
-          "after": "/images/home/home-staging-after.jpeg",
-          "before-alt": "Preview of a card scan before Spellvault processes it",
-          "after-alt": "Preview of a card identified by Spellvault",
-          "icon": "scan-search"
-        },
-        {
-          "label": "View collection organization example",
-          "before": "/images/home/hero-organize-before.jpeg",
-          "after": "/images/home/hero-organize-after.jpeg",
-          "before-alt": "Collection before being organized in Spellvault",
-          "after-alt": "Collection organized and tagged in Spellvault",
-          "icon": "library-big"
-        },
-        {
-          "label": "View price tracking example",
-          "before": "/images/home/hero-lighting-before.jpeg",
-          "after": "/images/home/hero-lighting-after.jpeg",
-          "before-alt": "Card before price tracking",
-          "after-alt": "Card with updated price and history in Spellvault",
-          "icon": "bar-chart-2"
-        }
-      ]
-    }
-  },
-  "trust": {
-    "title": "Used by <strong>collectors, stores, and competitive players</strong>"
-  },
-  "image-features": {
-    "title": "<strong>Scan and organize</strong> without friction",
-    "description": "Go from a pile of cards to a clean, searchable, valued collection in minutes.",
-    "items": [
-      {
-        "title": "Fast scanning",
-        "description": "Point your camera, identify the card, and add it to your collection without manual entry.",
-        "tag": "Scanner",
-        "before": "/images/home/furnish-before.jpeg",
-        "after": "/images/home/furnish-after.jpeg",
-        "before-alt": "Card waiting to be scanned",
-        "after-alt": "Card scanned and saved in Spellvault"
-      },
-      {
-        "title": "Accurate identification",
-        "description": "Detect name, edition, and key data so cataloging stays clean and reliable.",
-        "tag": "OCR",
-        "before": "/images/home/organize-before.jpeg",
-        "after": "/images/home/organize-after.jpeg",
-        "before-alt": "Card without identified details",
-        "after-alt": "Card identified and classified by Spellvault"
-      },
-      {
-        "title": "Variants and finishes",
-        "description": "Track foil versions, languages, sets, and duplicate copies in a single workflow.",
-        "tag": "Details",
-        "before": "/images/home/renovate-before.jpeg",
-        "after": "/images/home/renovate-after.jpeg",
-        "before-alt": "Card without variant metadata",
-        "after-alt": "Card with variant and edition registered"
-      },
-      {
-        "title": "Binders, decks, and boxes",
-        "description": "Organize the way you actually store cards: by binder, deck, box, or format.",
-        "before": "/images/home/declutter-before.jpeg",
-        "after": "/images/home/declutter-after.jpeg",
-        "before-alt": "Unorganized collection",
-        "after-alt": "Collection organized by binders and decks in Spellvault"
-      },
-      {
-        "title": "Bulk intake",
-        "description": "Log many cards in a row without losing context or momentum.",
-        "before": "/images/home/sky-before.jpeg",
-        "after": "/images/home/sky-after.jpeg",
-        "before-alt": "Batch of cards waiting to be imported",
-        "after-alt": "Batch of cards imported into Spellvault"
-      },
-      {
-        "title": "Export whenever you need",
-        "description": "Pull inventory for selling, insurance, accounting, or backup without rebuilding your database.",
-        "before": "/images/home/lighting-before.jpeg",
-        "after": "/images/home/lighting-after.jpeg",
-        "before-alt": "Collection before export",
-        "after-alt": "Collection exported from Spellvault"
-      }
-    ]
-  },
-  "video-features": {
-    "title": "<strong>Prices and movement</strong> with context",
-    "description": "Understand what your collection is worth today, which cards are moving, and where attention matters most.",
-    "photo-badge": "Reference",
-    "ai-badge": "Updated",
-    "items": [
-      {
-        "title": "Total collection value",
-        "description": "Check your portfolio value and spot movement at a glance.",
-        "before": "/images/home/waterpool.jpg",
-        "after": "/images/home/waterpool_video.mp4"
-      },
-      {
-        "title": "Price alerts",
-        "description": "Get notified when an important card moves so you can sell, buy, or wait with confidence.",
-        "before": "/images/home/outside.jpg",
-        "after": "/images/home/outside_video.mp4"
-      },
-      {
-        "title": "Per-card history",
-        "description": "Follow each card over time to better understand your collection.",
-        "before": "/images/home/bedroom.jpg",
-        "after": "/images/home/bedroom_video.mp4"
-      }
-    ]
-  },
-  "virtual-tours": {
-    "title": "<strong>Your collection</strong> always up to date",
-    "description": "View inventory, value, folders, and standout cards from one clean dashboard.",
-    "image-alt": "Collection overview in Spellvault"
-  },
-  "try-free": "Try for free",
-  "banner": {
-    "title": "Start organizing your collection today",
-    "description": "Scan your first cards, build your structure, and start following prices with Spellvault.",
-    "button": "Start free"
+    "rating": "+1000 users love it"
   },
   "services": {
     "title": "The core building blocks of <strong>Spellvault</strong>",
@@ -197,23 +70,10 @@
       }
     ]
   },
-  "publish": {
-    "title": "Track prices and references across <strong>the tools you already use</strong>",
-    "description": "Spellvault is built to fit real MTG workflows: marketplaces, decklists, and reference tools.",
-    "badge": "Ecosystem",
-    "button": "Start free",
-    "items": [
-      { "name": "Cardmarket" },
-      { "name": "TCGplayer" },
-      { "name": "eBay" },
-      { "name": "Scryfall" },
-      { "name": "Moxfield" },
-      { "name": "Archidekt" }
-    ]
-  },
-  "pricing": {
-    "title": "Pricing",
-    "description": "One subscription to scan, organize, and track the value of your collection."
+  "banner": {
+    "title": "Start organizing your collection today",
+    "description": "Scan your first cards, build your structure, and start following prices with Spellvault.",
+    "button": "Start free"
   },
   "faqs": {
     "badge": "FAQs",

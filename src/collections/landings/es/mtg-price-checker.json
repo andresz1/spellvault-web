@@ -5,7 +5,8 @@
   "description": "Consulta precios MTG rápidamente.",
   "hero": {
     "title": "MTG Price Checker",
-    "description": "Consulta precios de cartas Magic rápido y decide con más contexto."
+    "description": "Consulta precios de cartas Magic rápido y decide con más contexto.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -28,6 +29,31 @@
         {
           "title": "Decisiones más limpias",
           "description": "Ten más claro qué merece la pena revisar, guardar o mover.",
+          "button": "Descarga la app",
+          "icon": "bell-ring"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Precios con <strong>contexto real de inventario</strong>",
+      "description": "Consultar valor es más útil cuando ves el resto de la colección alrededor y no solo un número aislado.",
+      "items": [
+        {
+          "title": "Ve qué merece revisión",
+          "description": "Encuentra las cartas que requieren atención en vez de saltar entre herramientas desconectadas.",
+          "button": "Descarga la app",
+          "icon": "bar-chart-2"
+        },
+        {
+          "title": "Compara valor con tus copias",
+          "description": "Sabe cuántas copias tienes y dónde están mientras revisas la información de precio.",
+          "button": "Descarga la app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Decide qué mover después",
+          "description": "Usa el contexto de precio para comprar, vender, intercambiar o guardar con menos dudas.",
           "button": "Descarga la app",
           "icon": "bell-ring"
         }

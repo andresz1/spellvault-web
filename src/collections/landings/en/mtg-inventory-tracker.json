@@ -5,7 +5,8 @@
   "description": "Track MTG inventory with less manual work.",
   "hero": {
     "title": "MTG Inventory Tracker",
-    "description": "Track copies, folders, stock, and exports from one cleaner inventory view."
+    "description": "Track copies, folders, stock, and exports from one cleaner inventory view.",
+    "rating": "+1000 users love it"
   },
   "sections": [
     {
@@ -16,20 +17,45 @@
         {
           "title": "Track copies clearly",
           "description": "Know what you own, where it lives, and what is available.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "repeat-2"
         },
         {
           "title": "Export when needed",
           "description": "Prepare inventory for review, sharing, or backup in less time.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "file-text"
         },
         {
           "title": "Keep inventory usable",
           "description": "Move from raw stock to a cleaner collection system.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Inventory control for <strong>real card volume</strong>",
+      "description": "Useful inventory tracking needs more than totals. Spellvault helps you understand copies, availability, and where cards actually live.",
+      "items": [
+        {
+          "title": "Know what is available",
+          "description": "See repeated copies and usable stock without rebuilding spreadsheets every time cards move.",
+          "button": "Download",
+          "icon": "repeat-2"
+        },
+        {
+          "title": "Keep storage locations clear",
+          "description": "Track folders, binders, boxes, and sale inventory so card locations stay easy to follow.",
+          "button": "Download",
+          "icon": "folder-kanban"
+        },
+        {
+          "title": "Export when it matters",
+          "description": "Prepare inventory for review, backup, or sales workflows with much less manual cleanup.",
+          "button": "Download",
+          "icon": "file-text"
         }
       ]
     },
@@ -37,7 +63,7 @@
       "type": "banner",
       "title": "Track MTG inventory without the mess",
       "description": "Spellvault helps you keep cards, copies, and exports easier to manage.",
-      "button": "Download the app"
+      "button": "Download"
     },
     {
       "type": "faqs",

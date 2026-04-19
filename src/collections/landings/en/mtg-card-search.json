@@ -5,7 +5,8 @@
   "description": "Search MTG cards faster with Spellvault.",
   "hero": {
     "title": "MTG Card Search",
-    "description": "Search your Magic cards faster and find what matters without digging through binders."
+    "description": "Search your Magic cards faster and find what matters without digging through binders.",
+    "rating": "+1000 users love it"
   },
   "sections": [
     {
@@ -16,19 +17,44 @@
         {
           "title": "Search by card",
           "description": "Find cards by name without digging through folders manually.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "search-check"
         },
         {
           "title": "Search by context",
           "description": "Use filters like set, tag, or location when you need more precision.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "library-big"
         },
         {
           "title": "Find cards faster",
           "description": "Turn your collection into something you can actually navigate.",
-          "button": "Download the app",
+          "button": "Download",
+          "icon": "zap"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Search that works in <strong>real collections</strong>",
+      "description": "Useful card search is more than a name lookup. Spellvault helps when collections are spread across decks, boxes, folders, and duplicates.",
+      "items": [
+        {
+          "title": "Search beyond the obvious",
+          "description": "Look up cards with more context than memory alone, especially once the collection gets larger.",
+          "button": "Download",
+          "icon": "search-check"
+        },
+        {
+          "title": "Use structure as part of search",
+          "description": "Combine folders, tags, sets, and locations so you can find the exact copy you need.",
+          "button": "Download",
+          "icon": "library-big"
+        },
+        {
+          "title": "Turn search into action",
+          "description": "Once you find a card, keep moving into pricing, organization, or deck-building decisions.",
+          "button": "Download",
           "icon": "zap"
         }
       ]
@@ -37,7 +63,7 @@
       "type": "banner",
       "title": "Search your MTG collection with less friction",
       "description": "Spellvault gives you faster card lookup inside a cleaner inventory.",
-      "button": "Download the app"
+      "button": "Download"
     },
     {
       "type": "faqs",

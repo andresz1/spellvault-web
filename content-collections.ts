@@ -43,18 +43,7 @@ const landings = defineCollection({
     hero: z.object({
       title: z.string(),
       description: z.string(),
-      images: z
-        .array(
-          z.object({
-            label: z.string(),
-            before: z.string(),
-            after: z.string(),
-            "before-alt": z.string(),
-            "after-alt": z.string(),
-            icon: z.string(),
-          }),
-        )
-        .optional(),
+      rating: z.string().optional(),
     }),
     sections: z.array(
       z.discriminatedUnion("type", [

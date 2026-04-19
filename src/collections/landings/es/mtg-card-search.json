@@ -5,7 +5,8 @@
   "description": "Busca cartas MTG más rápido con Spellvault.",
   "hero": {
     "title": "MTG Card Search",
-    "description": "Busca tus cartas Magic más rápido y encuentra lo importante sin rebuscar en binders."
+    "description": "Busca tus cartas Magic más rápido y encuentra lo importante sin rebuscar en binders.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -28,6 +29,31 @@
         {
           "title": "Encuentra cartas antes",
           "description": "Convierte tu colección en algo realmente navegable.",
+          "button": "Descarga la app",
+          "icon": "zap"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Una búsqueda útil en <strong>colecciones reales</strong>",
+      "description": "Buscar cartas de verdad es más que escribir un nombre. Spellvault ayuda cuando la colección está repartida entre decks, cajas, carpetas y duplicados.",
+      "items": [
+        {
+          "title": "Busca más allá de lo obvio",
+          "description": "Encuentra cartas con más contexto que solo la memoria, sobre todo cuando la colección crece.",
+          "button": "Descarga la app",
+          "icon": "search-check"
+        },
+        {
+          "title": "Usa la estructura como parte de la búsqueda",
+          "description": "Combina carpetas, etiquetas, ediciones y ubicaciones para encontrar la copia exacta.",
+          "button": "Descarga la app",
+          "icon": "library-big"
+        },
+        {
+          "title": "Convierte la búsqueda en acción",
+          "description": "Cuando encuentras una carta, puedes seguir hacia precios, organización o decisiones de deck.",
           "button": "Descarga la app",
           "icon": "zap"
         }

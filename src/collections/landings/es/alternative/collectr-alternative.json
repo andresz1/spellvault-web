@@ -6,7 +6,8 @@
   "category": "comparison",
   "hero": {
     "title": "Collectr Alternative",
-    "description": "Spellvault es una alternativa a Collectr para seguimiento de precios, escaneo y gestión de inventario MTG."
+    "description": "Spellvault es una alternativa a Collectr para seguimiento de precios, escaneo y gestión de inventario MTG.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -31,6 +32,31 @@
           "description": "Usa carpetas, binders y estructura para que la colección siga siendo usable.",
           "button": "Descarga la app",
           "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Por qué mucha gente cambia desde <strong>Collectr</strong>",
+      "description": "Spellvault encaja cuando quieres más que una foto del portfolio y necesitas escaneo, organización y acciones de inventario en un solo flujo.",
+      "items": [
+        {
+          "title": "Ve más allá de una vista de valor",
+          "description": "Mantiene el seguimiento de precio conectado a la entrada de cartas, la estructura y la gestión diaria.",
+          "button": "Descarga la app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Mete cartas nuevas más rápido",
+          "description": "Usa escaneo para añadir cartas sin convertir cada cambio en entrada manual.",
+          "button": "Descarga la app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Organiza para trabajo real de colección",
+          "description": "Usa carpetas, decks y estructura de inventario cuando necesitas más control que el de un portfolio simple.",
+          "button": "Descarga la app",
+          "icon": "library-big"
         }
       ]
     },

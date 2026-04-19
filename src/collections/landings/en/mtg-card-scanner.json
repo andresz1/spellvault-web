@@ -2,63 +2,100 @@
   "id": "mtg-card-scanner",
   "title": "MTG Card Scanner",
   "short": "MTG Card Scanner",
-  "description": "Scan MTG cards fast with Spellvault.",
+  "description": "Scan Magic: The Gathering cards in seconds with Spellvault. The fastest MTG card scanner app for iPhone — identify, catalog, and manage your collection without manual entry.",
   "hero": {
     "title": "MTG Card Scanner",
-    "description": "Scan Magic cards quickly and turn them into clean inventory."
+    "description": "Scan your Magic cards fast and build a clean, searchable inventory — no manual entry needed."
   },
   "sections": [
     {
       "type": "features",
-      "title": "A faster <strong>MTG card scanner</strong>",
-      "description": "Built for quick intake, clear card identification, and collection-ready records.",
+      "title": "The fastest <strong>MTG card scanner</strong> app",
+      "description": "Built for quick intake, accurate card identification, and collection-ready records — all from your iPhone camera.",
       "items": [
         {
-          "title": "Fast camera flow",
-          "description": "Scan cards one after another without slowing down.",
-          "button": "Download the app",
+          "title": "Rapid camera flow",
+          "description": "Scan cards one after another without tapping between each one — designed for bulk sessions.",
+          "button": "Download",
           "icon": "scan-search"
         },
         {
-          "title": "Clean identification",
-          "description": "Keep card names and references organized from the start.",
-          "button": "Download the app",
+          "title": "Accurate card identification",
+          "description": "Spellvault recognizes card name, set, and edition so your records stay clean from the start.",
+          "button": "Download",
           "icon": "search-check"
         },
         {
-          "title": "Ready for inventory",
-          "description": "Move scanned cards straight into your collection workflow.",
-          "button": "Download the app",
+          "title": "Inventory-ready results",
+          "description": "Every scanned card lands in your collection structure — no copy-pasting or spreadsheet work.",
+          "button": "Download",
           "icon": "library-big"
         }
       ]
     },
     {
+      "type": "features",
+      "title": "More than a scanner — a full <strong>MTG collection workflow</strong>",
+      "description": "Scanning is just the start. Spellvault keeps your cards organized, priced, and searchable after every session.",
+      "items": [
+        {
+          "title": "Track value as you scan",
+          "description": "See collection value update in real time as new cards are added — no manual price lookups needed.",
+          "button": "Download",
+          "icon": "bar-chart-2"
+        },
+        {
+          "title": "Spot duplicates immediately",
+          "description": "Spellvault flags cards you already own so you can decide what to trade, sell, or store.",
+          "button": "Download",
+          "icon": "repeat-2"
+        },
+        {
+          "title": "Organize into binders and decks",
+          "description": "After scanning, move cards into decks, folders, or binders — the structure you already use.",
+          "button": "Download",
+          "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
       "type": "banner",
-      "title": "Scan cards without spreadsheet friction",
-      "description": "Use Spellvault to capture cards quickly and keep inventory moving.",
-      "button": "Download the app"
+      "title": "Stop entering cards by hand",
+      "description": "Use Spellvault to scan boxes, binders, and bulk lots in one session — then manage everything from one place.",
+      "button": "Download"
     },
     {
       "type": "faqs",
       "title": "Frequently Asked Questions",
-      "description": "Quick answers about using Spellvault as an MTG card scanner.",
+      "description": "Common questions about using Spellvault as your MTG card scanner app.",
       "items": [
         {
-          "title": "What is an MTG card scanner?",
-          "description": "An MTG card scanner helps you capture Magic cards and turn them into usable collection records faster."
+          "title": "What is an MTG card scanner app?",
+          "description": "An MTG card scanner app uses your phone camera to identify Magic: The Gathering cards automatically and log them to your collection — faster and more accurately than typing each card by hand."
         },
         {
-          "title": "Why use Spellvault for MTG card scanning?",
-          "description": "Spellvault combines scanning, inventory, and collection management in one workflow."
+          "title": "How does Spellvault identify scanned MTG cards?",
+          "description": "Spellvault reads the card through your camera and matches it against the full Magic card database, detecting the card name, set, and edition in seconds."
         },
         {
-          "title": "Can I scan many cards in one session?",
-          "description": "Yes. Spellvault is designed for fast intake when you are working through boxes, binders, or collection lots."
+          "title": "Can I scan a large box of MTG cards in one session?",
+          "description": "Yes. Spellvault is built for bulk scanning. You can move through boxes, binders, and collection lots without stopping between cards."
         },
         {
-          "title": "Can I organize cards after scanning?",
-          "description": "Yes. Scanning is only the first step, and you can keep building the collection structure after that."
+          "title": "Does Spellvault work as an MTG card price checker too?",
+          "description": "Yes. After scanning, each card shows current market prices so you can track collection value without leaving the app."
+        },
+        {
+          "title": "Will Spellvault detect duplicate MTG cards?",
+          "description": "Yes. Spellvault flags cards you already have in your collection so you can easily identify extras to trade or sell."
+        },
+        {
+          "title": "Can I organize scanned cards into decks or binders?",
+          "description": "Yes. Once cards are scanned and logged, you can move them into any deck, binder, or folder structure inside Spellvault."
+        },
+        {
+          "title": "Is Spellvault available for iPhone?",
+          "description": "Yes. Spellvault is a native iPhone app designed for a fast, smooth scanning experience on iOS."
         }
       ]
     }

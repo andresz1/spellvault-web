@@ -5,7 +5,8 @@
   "description": "Track MTG prices over time.",
   "hero": {
     "title": "MTG Price Tracker",
-    "description": "Track card movement, collection value, and market changes with more context."
+    "description": "Track card movement, collection value, and market changes with more context.",
+    "rating": "+1000 users love it"
   },
   "sections": [
     {
@@ -16,19 +17,44 @@
         {
           "title": "Track price movement",
           "description": "Follow changes over time instead of relying on one-off checks.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "bar-chart-2"
         },
         {
           "title": "Watch collection value",
           "description": "See how your total MTG collection changes as the market moves.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "wallet-cards"
         },
         {
           "title": "Catch useful alerts",
           "description": "Stay on top of cards worth buying, holding, or selling.",
-          "button": "Download the app",
+          "button": "Download",
+          "icon": "bell-ring"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Tracking built for <strong>cards you actually own</strong>",
+      "description": "Spellvault helps you follow movement over time while keeping the inventory behind that value visible and usable.",
+      "items": [
+        {
+          "title": "Watch individual cards over time",
+          "description": "See how important cards move instead of relying on one isolated price snapshot.",
+          "button": "Download",
+          "icon": "bar-chart-2"
+        },
+        {
+          "title": "Follow total collection value",
+          "description": "Keep an eye on the bigger picture while still understanding the cards behind the change.",
+          "button": "Download",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "React faster to changes",
+          "description": "Use alerts and price context to decide what to hold, list, buy, or revisit.",
+          "button": "Download",
           "icon": "bell-ring"
         }
       ]
@@ -37,7 +63,7 @@
       "type": "banner",
       "title": "Track MTG prices with better context",
       "description": "Spellvault keeps card prices and collection structure together.",
-      "button": "Download the app"
+      "button": "Download"
     },
     {
       "type": "faqs",

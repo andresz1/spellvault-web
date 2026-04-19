@@ -5,7 +5,8 @@
   "description": "Sigue precios MTG a lo largo del tiempo.",
   "hero": {
     "title": "MTG Price Tracker",
-    "description": "Sigue movimientos de precio, valor de colección y cambios de mercado con más contexto."
+    "description": "Sigue movimientos de precio, valor de colección y cambios de mercado con más contexto.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -28,6 +29,31 @@
         {
           "title": "Alertas útiles",
           "description": "Mantente al tanto de cartas que merece la pena comprar, guardar o vender.",
+          "button": "Descarga la app",
+          "icon": "bell-ring"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Seguimiento pensado para <strong>cartas que realmente tienes</strong>",
+      "description": "Spellvault te ayuda a seguir movimientos en el tiempo mientras mantiene visible y útil el inventario que hay detrás de ese valor.",
+      "items": [
+        {
+          "title": "Observa cartas individuales en el tiempo",
+          "description": "Mira cómo se mueven las cartas importantes en lugar de depender de una foto puntual.",
+          "button": "Descarga la app",
+          "icon": "bar-chart-2"
+        },
+        {
+          "title": "Sigue el valor total de la colección",
+          "description": "Controla la imagen completa sin perder de vista las cartas responsables del cambio.",
+          "button": "Descarga la app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Reacciona más rápido a los cambios",
+          "description": "Usa alertas y contexto de precio para decidir qué guardar, listar, comprar o revisar.",
           "button": "Descarga la app",
           "icon": "bell-ring"
         }

@@ -1,5 +1,4 @@
 import {
-  Apple,
   ArrowRight,
   BarChart2,
   BellRing,
@@ -17,10 +16,10 @@ import Link from "next/link";
 import { Trans, useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { FAQPageJsonLd, NextSeo } from "next-seo";
+import { FaApple } from "react-icons/fa";
 
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
-import { CustomersMarquee } from "@/components/shared/customers-marquee";
 import { IPhoneFrame } from "@/components/shared/iphone-frame";
 import {
   Accordion,
@@ -92,87 +91,73 @@ export default function HomePage({ docs, landings }: HomePageProps) {
       <Header />
 
       <main>
-        <Container className="relative max-w-5xl space-y-8 pt-24 pb-8 text-center md:pt-28">
-          <div className="space-y-4">
-            <div className="space-y-2">
-              <div className="flex items-center justify-center">
-                <Badge className="py-1" variant="outline">
-                  {t("hero.badge")}
-                  <Icon>
-                    <ChevronRight />
-                  </Icon>
-                </Badge>
+        <Container className="relative pb-8 pt-24 md:pt-28">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-center">
+            <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <div className="flex items-center justify-center lg:justify-start">
+                    <Badge className="py-1" variant="outline">
+                      {t("hero.badge")}
+                      <Icon>
+                        <ChevronRight />
+                      </Icon>
+                    </Badge>
+                  </div>
+
+                  <h1 className="text-3xl md:text-4xl font-bold">
+                    <Trans
+                      t={t}
+                      i18nKey="hero.title"
+                      components={{
+                        strong: <TextGradient />,
+                      }}
+                    />
+                  </h1>
+
+                  <p className="text-md text-muted-foreground md:text-lg">
+                    {t("hero.description")}
+                  </p>
+                </div>
+
+                <div className="flex items-center justify-center lg:justify-start">
+                  <Button>
+                    <Icon>
+                      <FaApple />
+                    </Icon>
+                    {t("hero.start-button")}
+                  </Button>
+                </div>
               </div>
 
-              <p className="text-3xl font-bold md:text-5xl">
-                <Trans
-                  t={t}
-                  i18nKey="hero.title"
-                  components={{
-                    strong: <TextGradient />,
-                  }}
-                />
-              </p>
+              <div className="flex flex-col items-center gap-4 lg:items-start">
+                <div className="flex flex-col items-center gap-4 md:flex-row">
+                  <div className="flex -space-x-1 *:ring *:ring-background">
+                    {Array.from(Array(4).keys()).map((index) => (
+                      <Avatar
+                        className="size-10 bg-muted-foreground"
+                        key={index}
+                      >
+                        <AvatarImage
+                          className="object-contain"
+                          src={`/images/home/avatar-0${index + 1}.png`}
+                        />
+                      </Avatar>
+                    ))}
+                  </div>
 
-              <h1 className="text-md text-muted-foreground md:text-lg">
-                {t("hero.description")}
-              </h1>
+                  <div className="flex flex-col items-center gap-1 lg:items-start">
+                    <Ratings value={5} variant="yellow" />
+                    <p className="text-sm text-muted-foreground">
+                      {t("hero.rating")}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div className="flex items-center justify-center">
-              <Button className="gap-2">
-                <Apple className="size-4" />
-                {t("hero.start-button")}
-              </Button>
-            </div>
+            <IPhoneFrame className="lg:ml-auto" />
           </div>
-
-          <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
-            <div className="flex -space-x-1 *:ring *:ring-background">
-              {Array.from(Array(4).keys()).map((index) => (
-                <Avatar className="size-10 bg-muted-foreground" key={index}>
-                  <AvatarImage
-                    className="object-contain"
-                    src={`/images/home/avatar-0${index + 1}.png`}
-                  />
-                </Avatar>
-              ))}
-            </div>
-
-            <div className="flex flex-col items-center gap-1">
-              <Ratings value={5} variant="yellow" />
-              <p className="text-sm text-muted-foreground">
-                {t("hero.rating")}
-              </p>
-            </div>
-          </div>
-
-          <div className="relative mx-auto w-full max-w-sm pt-2">
-            <div className="pointer-events-none absolute inset-x-10 top-10 h-48 rounded-full bg-primary/15 blur-3xl" />
-            <IPhoneFrame screenClassName="bg-background dark:bg-neutral-950" />
-          </div>
-
-          <div className="pointer-events-none absolute left-1/2 top-0 h-1/2 w-full -translate-x-1/2 bg-[conic-gradient(from_-81deg,#228cfb,#ce54cd_99deg,#e76267_162deg,#ff830c_216deg,#228cfb_288deg)] opacity-10 blur-[120px]" />
-        </Container>
-
-        <Container className="pb-6 md:pb-10" asChild>
-          <section>
-            <div className="mx-auto max-w-2xl space-y-2 text-center">
-              <h2 className="text-base text-muted-foreground md:text-lg">
-                <Trans
-                  t={t}
-                  i18nKey="trust.title"
-                  components={{
-                    strong: (
-                      <strong className="font-semibold text-foreground" />
-                    ),
-                  }}
-                />
-              </h2>
-            </div>
-
-            <CustomersMarquee className="mx-auto mt-6 max-w-3xl" />
-          </section>
         </Container>
 
         <Container className="py-8 md:py-12" asChild>

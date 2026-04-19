@@ -4,13 +4,11 @@ import { cn } from "@/components/ui/core";
 
 export interface IPhoneFrameProps extends ComponentPropsWithoutRef<"div"> {
   children?: ReactNode;
-  screenClassName?: string;
 }
 
 export const IPhoneFrame = ({
   className,
   children,
-  screenClassName,
   ...others
 }: IPhoneFrameProps) => {
   return (
@@ -64,12 +62,7 @@ export const IPhoneFrame = ({
         />
 
         <foreignObject x="21.25" y="19.25" width="389.5" height="843.5">
-          <div
-            className={cn(
-              "h-full w-full overflow-hidden rounded-[55.75px] bg-neutral-100 dark:bg-neutral-900",
-              screenClassName,
-            )}
-          >
+          <div className="h-full w-full overflow-hidden rounded-[55.75px] bg-neutral-100 dark:bg-neutral-900">
             {children}
           </div>
         </foreignObject>

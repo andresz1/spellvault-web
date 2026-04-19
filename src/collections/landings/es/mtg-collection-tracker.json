@@ -5,7 +5,8 @@
   "description": "Haz seguimiento de tu colección MTG en una app.",
   "hero": {
     "title": "MTG Collection Tracker",
-    "description": "Sigue cartas, binders, mazos y valor de colección con menos caos."
+    "description": "Sigue cartas, binders, mazos y valor de colección con menos caos.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -30,6 +31,31 @@
           "description": "Inventario, estructura y valor quedan en un mismo lugar.",
           "button": "Descarga la app",
           "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Hecho para <strong>colecciones MTG vivas</strong>",
+      "description": "Spellvault ayuda cuando tus cartas se reparten entre decks, binders de cambio, cajas largas y proyectos que cambian constantemente.",
+      "items": [
+        {
+          "title": "Sigue la estructura real de la colección",
+          "description": "Mantiene decks, carpetas, cajas y binders conectados en lugar de gestionar cada zona por separado.",
+          "button": "Descarga la app",
+          "icon": "library-big"
+        },
+        {
+          "title": "Detecta copias extra más rápido",
+          "description": "La visibilidad de duplicados te ayuda a ver qué puedes vender, cambiar o mover.",
+          "button": "Descarga la app",
+          "icon": "repeat-2"
+        },
+        {
+          "title": "Mantiene el valor unido a la colección",
+          "description": "Sigue valor de cartas y valor total sin perder la estructura que hay detrás.",
+          "button": "Descarga la app",
+          "icon": "wallet-cards"
         }
       ]
     },

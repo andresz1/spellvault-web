@@ -6,7 +6,8 @@
   "category": "comparison",
   "hero": {
     "title": "ManaBox Alternative",
-    "description": "Spellvault is a ManaBox alternative for scanning cards, tracking prices, and managing inventory."
+    "description": "Spellvault is a ManaBox alternative for scanning cards, tracking prices, and managing inventory.",
+    "rating": "+1000 users love it"
   },
   "sections": [
     {
@@ -17,19 +18,44 @@
         {
           "title": "Card scanning",
           "description": "Capture cards quickly and move them into a cleaner inventory flow.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "scan-search"
         },
         {
           "title": "Collection clarity",
           "description": "Keep binders, decks, folders, and copies easier to understand.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "library-big"
         },
         {
           "title": "Price context",
           "description": "See value together with the rest of your collection data.",
-          "button": "Download the app",
+          "button": "Download",
+          "icon": "bar-chart-2"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Why switch from <strong>ManaBox</strong>",
+      "description": "Spellvault fits people who want collection workflows that stay clear as inventory, decks, and value tracking grow.",
+      "items": [
+        {
+          "title": "Keep scanning connected to inventory",
+          "description": "Add cards quickly and move straight into organization instead of splitting the workflow.",
+          "button": "Download",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Use clearer collection structure",
+          "description": "Track folders, binders, decks, and copies in a way that stays understandable over time.",
+          "button": "Download",
+          "icon": "library-big"
+        },
+        {
+          "title": "See value with more context",
+          "description": "Review price movement and collection value alongside the cards and copies behind it.",
+          "button": "Download",
           "icon": "bar-chart-2"
         }
       ]

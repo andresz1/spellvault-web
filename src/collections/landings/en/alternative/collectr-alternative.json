@@ -6,7 +6,8 @@
   "category": "comparison",
   "hero": {
     "title": "Collectr Alternative",
-    "description": "Spellvault is a Collectr alternative for MTG price tracking, scanning, and inventory management."
+    "description": "Spellvault is a Collectr alternative for MTG price tracking, scanning, and inventory management.",
+    "rating": "+1000 users love it"
   },
   "sections": [
     {
@@ -17,20 +18,45 @@
         {
           "title": "Track collection value",
           "description": "See total value and card-level context together.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "wallet-cards"
         },
         {
           "title": "Scan new cards",
           "description": "Bring new cards into your collection without extra friction.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "scan-search"
         },
         {
           "title": "Organize inventory",
           "description": "Use folders, binders, and structure to keep the collection usable.",
-          "button": "Download the app",
+          "button": "Download",
           "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Why people switch from <strong>Collectr</strong>",
+      "description": "Spellvault is useful when you want more than a portfolio snapshot and need scanning, organization, and inventory actions in the same workflow.",
+      "items": [
+        {
+          "title": "Go beyond a value-only view",
+          "description": "Keep price tracking connected to card intake, structure, and day-to-day inventory management.",
+          "button": "Download",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Bring new cards in faster",
+          "description": "Use scanning to add cards without turning every update into manual entry.",
+          "button": "Download",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Organize for real collection work",
+          "description": "Use folders, decks, and inventory structure when you need more control than a simple portfolio offers.",
+          "button": "Download",
+          "icon": "library-big"
         }
       ]
     },

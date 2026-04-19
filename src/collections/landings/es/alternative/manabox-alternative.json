@@ -6,7 +6,8 @@
   "category": "comparison",
   "hero": {
     "title": "ManaBox Alternative",
-    "description": "Spellvault es una alternativa a ManaBox para escanear cartas, seguir precios y gestionar inventario MTG."
+    "description": "Spellvault es una alternativa a ManaBox para escanear cartas, seguir precios y gestionar inventario MTG.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -29,6 +30,31 @@
         {
           "title": "Más contexto de precios",
           "description": "Ve el valor junto al resto de datos reales de tu colección.",
+          "button": "Descarga la app",
+          "icon": "bar-chart-2"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Por qué cambiar desde <strong>ManaBox</strong>",
+      "description": "Spellvault encaja para quien quiere flujos de colección que sigan claros a medida que crecen el inventario, los decks y el valor.",
+      "items": [
+        {
+          "title": "Mantiene el escaneo unido al inventario",
+          "description": "Añade cartas rápido y pasa directo a la organización sin partir el flujo en varias herramientas.",
+          "button": "Descarga la app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Usa una estructura más clara",
+          "description": "Sigue carpetas, binders, decks y copias de una forma que sigue siendo entendible con el tiempo.",
+          "button": "Descarga la app",
+          "icon": "library-big"
+        },
+        {
+          "title": "Ve el valor con más contexto",
+          "description": "Revisa movimiento y valor de colección junto a las cartas y copias que hay detrás.",
           "button": "Descarga la app",
           "icon": "bar-chart-2"
         }

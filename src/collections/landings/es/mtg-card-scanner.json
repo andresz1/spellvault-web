@@ -5,7 +5,8 @@
   "description": "Escanea cartas MTG rápido con Spellvault.",
   "hero": {
     "title": "MTG Card Scanner",
-    "description": "Escanea cartas Magic rápido y conviértelas en inventario limpio."
+    "description": "Escanea cartas Magic rápido y conviértelas en inventario limpio.",
+    "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
@@ -28,6 +29,31 @@
         {
           "title": "Listo para inventario",
           "description": "Lleva las cartas escaneadas directo a tu flujo de colección.",
+          "button": "Descarga la app",
+          "icon": "library-big"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Pensado para <strong>entradas reales de MTG</strong>",
+      "description": "Spellvault encaja en sesiones de binder, compras de colección y catalogación rápida cuando las cartas deben pasar pronto al inventario.",
+      "items": [
+        {
+          "title": "Soporta sesiones de escaneo grandes",
+          "description": "Recorre montones, cajas o binders sin convertir la entrada en una tarea manual lenta.",
+          "button": "Descarga la app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Empieza con registros más limpios",
+          "description": "Parte de una mejor identificación para que la organización y los precios exijan menos limpieza después.",
+          "button": "Descarga la app",
+          "icon": "search-check"
+        },
+        {
+          "title": "Pasa directo al trabajo de inventario",
+          "description": "Después de escanear puedes seguir con estructura, duplicados y valor dentro de la misma app.",
           "button": "Descarga la app",
           "icon": "library-big"
         }
