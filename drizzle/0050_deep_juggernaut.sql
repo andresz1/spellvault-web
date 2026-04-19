@@ -1,1 +1,0 @@
-ALTER TABLE "videos" ALTER COLUMN "format" SET DEFAULT 'landscape';

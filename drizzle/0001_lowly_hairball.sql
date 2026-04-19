@@ -1,1 +1,0 @@
-ALTER TABLE "agents" ADD COLUMN "telegram_token" varchar(512) NOT NULL;

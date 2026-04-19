@@ -1,1 +1,0 @@
-ALTER TABLE "users" RENAME COLUMN "user_source" TO "source";

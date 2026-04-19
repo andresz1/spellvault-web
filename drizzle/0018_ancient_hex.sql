@@ -1,1 +1,0 @@
-ALTER TABLE "editions" ADD COLUMN "action" varchar(2048);

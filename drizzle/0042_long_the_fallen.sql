@@ -1,1 +1,0 @@
-ALTER TABLE "videos" ADD COLUMN "template" varchar(2048);

@@ -1,1 +1,0 @@
-ALTER TABLE "videos" ADD COLUMN "name" varchar(2048);
