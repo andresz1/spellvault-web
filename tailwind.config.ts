@@ -1,0 +1,215 @@
+import variables from "@mertasan/tailwindcss-variables";
+import typography from "@tailwindcss/typography";
+import type { Config } from "tailwindcss";
+import animate from "tailwindcss-animate";
+
+export default {
+  darkMode: ["class"],
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        border: "rgb(var(--border) / <alpha-value>)",
+        input: "rgb(var(--input) / <alpha-value>)",
+        ring: "rgb(var(--ring) / <alpha-value>)",
+        background: "rgb(var(--background) / <alpha-value>)",
+        foreground: "rgb(var(--foreground) / <alpha-value>)",
+        primary: {
+          DEFAULT: "rgb(var(--primary) / <alpha-value>)",
+          foreground: "rgb(var(--primary-foreground) / <alpha-value>)",
+        },
+        secondary: {
+          DEFAULT: "rgb(var(--secondary) / <alpha-value>)",
+          foreground: "rgb(var(--secondary-foreground) / <alpha-value>)",
+        },
+        destructive: {
+          DEFAULT: "rgb(var(--destructive) / <alpha-value>)",
+          foreground: "rgb(var(--destructive-foreground) / <alpha-value>)",
+        },
+        muted: {
+          DEFAULT: "rgb(var(--muted) / <alpha-value>)",
+          foreground: "rgb(var(--muted-foreground) / <alpha-value>)",
+        },
+        accent: {
+          DEFAULT: "rgb(var(--accent) / <alpha-value>)",
+          foreground: "rgb(var(--accent-foreground) / <alpha-value>)",
+        },
+        popover: {
+          DEFAULT: "rgb(var(--popover) / <alpha-value>)",
+          foreground: "rgb(var(--popover-foreground) / <alpha-value>)",
+        },
+        card: {
+          DEFAULT: "rgb(var(--card) / <alpha-value>)",
+          foreground: "rgb(var(--card-foreground) / <alpha-value>)",
+        },
+        sidebar: {
+          DEFAULT: "rgb(var(--sidebar) / <alpha-value>)",
+          foreground: "rgb(var(--sidebar-foreground) / <alpha-value>)",
+          primary: "rgb(var(--sidebar-primary) / <alpha-value>)",
+          "primary-foreground":
+            "rgb(var(--sidebar-primary-foreground) / <alpha-value>)",
+          accent: "rgb(var(--sidebar-accent) / <alpha-value>)",
+          "accent-foreground":
+            "rgb(var(--sidebar-accent-foreground) / <alpha-value>)",
+          border: "rgb(var(--sidebar-border) / <alpha-value>)",
+          ring: "rgb(var(--sidebar-ring) / <alpha-value>)",
+        },
+        chart: {
+          1: "rgb(var(--chart-1) / <alpha-value>)",
+          2: "rgb(var(--chart-2) / <alpha-value>)",
+          3: "rgb(var(--chart-3) / <alpha-value>)",
+          4: "rgb(var(--chart-4) / <alpha-value>)",
+          5: "rgb(var(--chart-5) / <alpha-value>)",
+        },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
+      },
+      animation: {
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+      },
+      variables: {
+        DEFAULT: {
+          background: "255 255 255",
+          foreground: "10 10 10",
+          card: "255 255 255",
+          "card-foreground": "10 10 10",
+          popover: "255 255 255",
+          "popover-foreground": "10 10 10",
+          primary: "23 23 23",
+          "primary-foreground": "250 250 250",
+          secondary: "245 245 245",
+          "secondary-foreground": "23 23 23",
+          muted: "245 245 245",
+          "muted-foreground": "115 115 115",
+          accent: "245 245 245",
+          "accent-foreground": "23 23 23",
+          destructive: "231 0 11",
+          "destructive-foreground": "255 255 255",
+          border: "229 229 229",
+          input: "229 229 229",
+          ring: "161 161 161",
+          "chart-1": "145 197 255",
+          "chart-2": "58 129 246",
+          "chart-3": "37 99 239",
+          "chart-4": "26 78 218",
+          "chart-5": "31 63 173",
+          sidebar: "250 250 250",
+          "sidebar-foreground": "10 10 10",
+          "sidebar-primary": "23 23 23",
+          "sidebar-primary-foreground": "250 250 250",
+          "sidebar-accent": "245 245 245",
+          "sidebar-accent-foreground": "23 23 23",
+          "sidebar-border": "229 229 229",
+          "sidebar-ring": "161 161 161",
+          "font-sans":
+            "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+          "font-serif":
+            'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+          "font-mono":
+            'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+          radius: "0.625rem",
+          "shadow-x": "0",
+          "shadow-y": "1px",
+          "shadow-blur": "3px",
+          "shadow-spread": "0px",
+          "shadow-opacity": "0.1",
+          "shadow-color": "oklch(0 0 0)",
+          "shadow-2xs": "0 1px 3px 0px hsl(0 0% 0% / 0.05)",
+          "shadow-xs": "0 1px 3px 0px hsl(0 0% 0% / 0.05)",
+          "shadow-sm":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10)",
+          shadow:
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-md":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 2px 4px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-lg":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 4px 6px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-xl":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 8px 10px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-2xl": "0 1px 3px 0px hsl(0 0% 0% / 0.25)",
+          "tracking-normal": "0em",
+          spacing: "0.25rem",
+        },
+        ".dark": {
+          background: "10 10 10",
+          foreground: "250 250 250",
+          card: "23 23 23",
+          "card-foreground": "250 250 250",
+          popover: "38 38 38",
+          "popover-foreground": "250 250 250",
+          primary: "229 229 229",
+          "primary-foreground": "23 23 23",
+          secondary: "38 38 38",
+          "secondary-foreground": "250 250 250",
+          muted: "38 38 38",
+          "muted-foreground": "161 161 161",
+          accent: "64 64 64",
+          "accent-foreground": "250 250 250",
+          destructive: "255 100 103",
+          "destructive-foreground": "250 250 250",
+          border: "40 40 40",
+          input: "52 52 52",
+          ring: "115 115 115",
+          "chart-1": "145 197 255",
+          "chart-2": "58 129 246",
+          "chart-3": "37 99 239",
+          "chart-4": "26 78 218",
+          "chart-5": "31 63 173",
+          sidebar: "23 23 23",
+          "sidebar-foreground": "250 250 250",
+          "sidebar-primary": "20 71 230",
+          "sidebar-primary-foreground": "250 250 250",
+          "sidebar-accent": "38 38 38",
+          "sidebar-accent-foreground": "250 250 250",
+          "sidebar-border": "40 40 40",
+          "sidebar-ring": "82 82 82",
+          "font-sans":
+            "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+          "font-serif":
+            'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+          "font-mono":
+            'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+          radius: "0.625rem",
+          "shadow-x": "0",
+          "shadow-y": "1px",
+          "shadow-blur": "3px",
+          "shadow-spread": "0px",
+          "shadow-opacity": "0.1",
+          "shadow-color": "oklch(0 0 0)",
+          "shadow-2xs": "0 1px 3px 0px hsl(0 0% 0% / 0.05)",
+          "shadow-xs": "0 1px 3px 0px hsl(0 0% 0% / 0.05)",
+          "shadow-sm":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10)",
+          shadow:
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-md":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 2px 4px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-lg":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 4px 6px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-xl":
+            "0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 8px 10px -1px hsl(0 0% 0% / 0.10)",
+          "shadow-2xl": "0 1px 3px 0px hsl(0 0% 0% / 0.25)",
+        },
+      },
+    },
+  },
+  plugins: [variables, animate, typography],
+} satisfies Config;

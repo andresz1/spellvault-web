@@ -1,0 +1,1 @@
+ALTER TABLE "editions" RENAME COLUMN "review_comment" TO "comment";

@@ -1,0 +1,66 @@
+{
+  "id": "mtg-price-checker",
+  "title": "MTG Price Checker",
+  "short": "MTG Price Checker",
+  "description": "Consulta precios MTG rápidamente.",
+  "hero": {
+    "title": "MTG Price Checker",
+    "description": "Consulta precios de cartas Magic rápido y decide con más contexto."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Un mejor <strong>MTG price checker</strong>",
+      "description": "Consulta valor rápido sin perder el contexto de tu colección.",
+      "items": [
+        {
+          "title": "Chequeos rápidos",
+          "description": "Revisa precios sin saltar entre herramientas desconectadas.",
+          "button": "Descarga la app",
+          "icon": "bar-chart-2"
+        },
+        {
+          "title": "Contexto de colección",
+          "description": "Entiende el precio junto a tus copias y al resto del inventario.",
+          "button": "Descarga la app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Decisiones más limpias",
+          "description": "Ten más claro qué merece la pena revisar, guardar o mover.",
+          "button": "Descarga la app",
+          "icon": "bell-ring"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Consulta precios MTG con menos dudas",
+      "description": "Spellvault hace que revisar precios sea más rápido y más accionable.",
+      "button": "Descarga la app"
+    },
+    {
+      "type": "faqs",
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas cortas sobre Spellvault como MTG price checker.",
+      "items": [
+        {
+          "title": "¿Qué es un MTG price checker?",
+          "description": "Un MTG price checker te ayuda a revisar precios rápido para comprar, guardar o vender mejor."
+        },
+        {
+          "title": "¿Por qué usar Spellvault para consultar precios?",
+          "description": "Porque conecta la consulta de precio con tu inventario real y eso hace la información más útil."
+        },
+        {
+          "title": "¿Puedo consultar precios mientras sigo mi colección?",
+          "description": "Sí. Esa es una de las ventajas principales frente a usar herramientas separadas."
+        },
+        {
+          "title": "¿Sirve también para vendedores?",
+          "description": "Sí. Consultar precios con contexto sirve tanto para coleccionar como para vender."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "mtg-inventory-tracker",
+  "title": "MTG Inventory Tracker",
+  "short": "MTG Inventory Tracker",
+  "description": "Track MTG inventory with less manual work.",
+  "hero": {
+    "title": "MTG Inventory Tracker",
+    "description": "Track copies, folders, stock, and exports from one cleaner inventory view."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "A simpler <strong>MTG inventory tracker</strong>",
+      "description": "Use one place to keep cards, stock movement, and collection exports organized.",
+      "items": [
+        {
+          "title": "Track copies clearly",
+          "description": "Know what you own, where it lives, and what is available.",
+          "button": "Download the app",
+          "icon": "repeat-2"
+        },
+        {
+          "title": "Export when needed",
+          "description": "Prepare inventory for review, sharing, or backup in less time.",
+          "button": "Download the app",
+          "icon": "file-text"
+        },
+        {
+          "title": "Keep inventory usable",
+          "description": "Move from raw stock to a cleaner collection system.",
+          "button": "Download the app",
+          "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Track MTG inventory without the mess",
+      "description": "Spellvault helps you keep cards, copies, and exports easier to manage.",
+      "button": "Download the app"
+    },
+    {
+      "type": "faqs",
+      "title": "Frequently Asked Questions",
+      "description": "What matters most about using Spellvault as an MTG inventory tracker.",
+      "items": [
+        {
+          "title": "What is an MTG inventory tracker?",
+          "description": "An MTG inventory tracker helps you manage cards, copies, locations, and stock in a more usable way."
+        },
+        {
+          "title": "Can I track duplicates and stock levels?",
+          "description": "Yes. Spellvault makes it easier to see repeated copies and understand what is available."
+        },
+        {
+          "title": "Can I export my inventory?",
+          "description": "Yes. Inventory exports are useful for sharing, reviewing, and keeping a backup."
+        },
+        {
+          "title": "Is this useful for stores and sellers?",
+          "description": "Yes. A cleaner inventory is valuable whether you collect privately or manage cards for sale."
+        }
+      ]
+    }
+  ]
+}

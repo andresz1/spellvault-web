@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "badge": "Spellvault",
+    "start-button": "Download the app",
+    "rating": "Built for collectors, stores, and players"
+  },
+  "trust": {
+    "title": "Used by <strong>players, sellers, and MTG collectors</strong>"
+  },
+  "faqs": {
+    "badge": "FAQs"
+  },
+  "comparison": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "manabox-alternative",
+  "title": "ManaBox Alternative",
+  "short": "ManaBox Alternative",
+  "description": "A clearer ManaBox alternative for MTG collections.",
+  "category": "comparison",
+  "hero": {
+    "title": "ManaBox Alternative",
+    "description": "Spellvault is a ManaBox alternative for scanning cards, tracking prices, and managing inventory."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Why choose this <strong>ManaBox alternative</strong>",
+      "description": "Spellvault focuses on clean scanning, collection structure, and usable price context.",
+      "items": [
+        {
+          "title": "Card scanning",
+          "description": "Capture cards quickly and move them into a cleaner inventory flow.",
+          "button": "Download the app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Collection clarity",
+          "description": "Keep binders, decks, folders, and copies easier to understand.",
+          "button": "Download the app",
+          "icon": "library-big"
+        },
+        {
+          "title": "Price context",
+          "description": "See value together with the rest of your collection data.",
+          "button": "Download the app",
+          "icon": "bar-chart-2"
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Spellvault vs <strong>ManaBox</strong>",
+      "description": "A quick view of the workflow differences that matter most.",
+      "competitor": "ManaBox",
+      "rows": [
+        {
+          "feature": "Card scanning",
+          "inmoedit": true,
+          "competitor": true
+        },
+        {
+          "feature": "Collection exports",
+          "inmoedit": true,
+          "competitor": "Limited"
+        },
+        {
+          "feature": "Inventory structure",
+          "inmoedit": "Clear",
+          "competitor": "Depends on setup"
+        },
+        {
+          "feature": "Price context inside collection",
+          "inmoedit": true,
+          "competitor": "Partial"
+        }
+      ]
+    },
+    {
+      "type": "faqs",
+      "title": "Frequently Asked Questions",
+      "description": "Common questions when comparing Spellvault and ManaBox.",
+      "items": [
+        {
+          "title": "Is Spellvault a good ManaBox alternative?",
+          "description": "Yes. Spellvault is designed for people who want scanning, inventory, and price tracking in one cleaner workflow."
+        },
+        {
+          "title": "What makes Spellvault different from ManaBox?",
+          "description": "The main difference is the focus on clearer inventory structure and collection-aware price context."
+        },
+        {
+          "title": "Can I use Spellvault for collection tracking and prices?",
+          "description": "Yes. That combination is one of the main reasons to choose it as an alternative."
+        },
+        {
+          "title": "Who should consider a ManaBox alternative?",
+          "description": "Collectors, stores, and players who want a more focused collection workflow should consider it."
+        }
+      ]
+    }
+  ]
+}

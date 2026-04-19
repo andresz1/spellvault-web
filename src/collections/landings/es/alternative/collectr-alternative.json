@@ -1,0 +1,89 @@
+{
+  "id": "collectr-alternative",
+  "title": "Collectr Alternative",
+  "short": "Collectr Alternative",
+  "description": "Una alternativa a Collectr más clara para MTG.",
+  "category": "comparison",
+  "hero": {
+    "title": "Collectr Alternative",
+    "description": "Spellvault es una alternativa a Collectr para seguimiento de precios, escaneo y gestión de inventario MTG."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Por qué usar esta <strong>alternativa a Collectr</strong>",
+      "description": "Spellvault mantiene conectados el escaneo, la organización de colección y el seguimiento de precios.",
+      "items": [
+        {
+          "title": "Sigue valor de colección",
+          "description": "Ve valor total y contexto por carta a la vez.",
+          "button": "Descarga la app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Escanea cartas nuevas",
+          "description": "Mete cartas nuevas en la colección sin pasos extra.",
+          "button": "Descarga la app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Organiza inventario",
+          "description": "Usa carpetas, binders y estructura para que la colección siga siendo usable.",
+          "button": "Descarga la app",
+          "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Spellvault vs <strong>Collectr</strong>",
+      "description": "Las diferencias que importan cuando quieres más que una simple vista de portfolio.",
+      "competitor": "Collectr",
+      "rows": [
+        {
+          "feature": "Seguimiento de precios",
+          "inmoedit": true,
+          "competitor": true
+        },
+        {
+          "feature": "Escaneo de cartas",
+          "inmoedit": true,
+          "competitor": "Limitado"
+        },
+        {
+          "feature": "Organización de inventario",
+          "inmoedit": true,
+          "competitor": "Básica"
+        },
+        {
+          "feature": "Exportaciones de colección",
+          "inmoedit": true,
+          "competitor": false
+        }
+      ]
+    },
+    {
+      "type": "faqs",
+      "title": "Preguntas frecuentes",
+      "description": "Preguntas comunes al comparar Spellvault y Collectr.",
+      "items": [
+        {
+          "title": "¿Es Spellvault una buena alternativa a Collectr?",
+          "description": "Sí. Spellvault encaja bien si quieres seguimiento de precio con mejor escaneo y estructura de colección."
+        },
+        {
+          "title": "¿Qué diferencia a Spellvault de Collectr?",
+          "description": "Spellvault pone más foco en inventario conectado y en flujos de colección más completos."
+        },
+        {
+          "title": "¿Puedo escanear cartas en Spellvault?",
+          "description": "Sí. El escaneo forma parte del flujo, y eso lo hace útil como alternativa a Collectr."
+        },
+        {
+          "title": "¿Quién debería mirar una alternativa a Collectr?",
+          "description": "Coleccionistas y vendedores que quieran más control sobre inventario y estructura."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "mtg-card-scanner",
+  "title": "MTG Card Scanner",
+  "short": "MTG Card Scanner",
+  "description": "Scan MTG cards fast with Spellvault.",
+  "hero": {
+    "title": "MTG Card Scanner",
+    "description": "Scan Magic cards quickly and turn them into clean inventory."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "A faster <strong>MTG card scanner</strong>",
+      "description": "Built for quick intake, clear card identification, and collection-ready records.",
+      "items": [
+        {
+          "title": "Fast camera flow",
+          "description": "Scan cards one after another without slowing down.",
+          "button": "Download the app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Clean identification",
+          "description": "Keep card names and references organized from the start.",
+          "button": "Download the app",
+          "icon": "search-check"
+        },
+        {
+          "title": "Ready for inventory",
+          "description": "Move scanned cards straight into your collection workflow.",
+          "button": "Download the app",
+          "icon": "library-big"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Scan cards without spreadsheet friction",
+      "description": "Use Spellvault to capture cards quickly and keep inventory moving.",
+      "button": "Download the app"
+    },
+    {
+      "type": "faqs",
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers about using Spellvault as an MTG card scanner.",
+      "items": [
+        {
+          "title": "What is an MTG card scanner?",
+          "description": "An MTG card scanner helps you capture Magic cards and turn them into usable collection records faster."
+        },
+        {
+          "title": "Why use Spellvault for MTG card scanning?",
+          "description": "Spellvault combines scanning, inventory, and collection management in one workflow."
+        },
+        {
+          "title": "Can I scan many cards in one session?",
+          "description": "Yes. Spellvault is designed for fast intake when you are working through boxes, binders, or collection lots."
+        },
+        {
+          "title": "Can I organize cards after scanning?",
+          "description": "Yes. Scanning is only the first step, and you can keep building the collection structure after that."
+        }
+      ]
+    }
+  ]
+}

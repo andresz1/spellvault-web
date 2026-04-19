@@ -1,0 +1,66 @@
+{
+  "id": "mtg-price-tracker",
+  "title": "MTG Price Tracker",
+  "short": "MTG Price Tracker",
+  "description": "Sigue precios MTG a lo largo del tiempo.",
+  "hero": {
+    "title": "MTG Price Tracker",
+    "description": "Sigue movimientos de precio, valor de colección y cambios de mercado con más contexto."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Un <strong>MTG price tracker</strong> útil de verdad",
+      "description": "Sigue movimientos en el tiempo sin separar valor e inventario.",
+      "items": [
+        {
+          "title": "Sigue movimientos",
+          "description": "Observa cambios de precio en el tiempo y no solo fotos puntuales.",
+          "button": "Descarga la app",
+          "icon": "bar-chart-2"
+        },
+        {
+          "title": "Valor total de colección",
+          "description": "Ve cómo cambia el valor conjunto de tu colección MTG.",
+          "button": "Descarga la app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Alertas útiles",
+          "description": "Mantente al tanto de cartas que merece la pena comprar, guardar o vender.",
+          "button": "Descarga la app",
+          "icon": "bell-ring"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Sigue precios MTG con mejor contexto",
+      "description": "Spellvault mantiene unidos los precios y la estructura real de tu colección.",
+      "button": "Descarga la app"
+    },
+    {
+      "type": "faqs",
+      "title": "Preguntas frecuentes",
+      "description": "Lo clave sobre Spellvault como MTG price tracker.",
+      "items": [
+        {
+          "title": "¿Qué es un MTG price tracker?",
+          "description": "Un MTG price tracker te ayuda a seguir movimientos de precio en el tiempo en vez de revisar cartas aisladas."
+        },
+        {
+          "title": "¿Spellvault sigue el valor total de la colección?",
+          "description": "Sí. Puedes seguir tanto cartas individuales como el valor agregado de toda la colección."
+        },
+        {
+          "title": "¿Puedo usar alertas para movimientos de precio?",
+          "description": "Sí. Spellvault está pensado para que los cambios importantes sean más fáciles de ver."
+        },
+        {
+          "title": "¿Por qué seguir precios es mejor que consultar una vez?",
+          "description": "Porque la tendencia y el movimiento a lo largo del tiempo dan mucho más contexto que un único dato."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "mtg-collection-tracker",
+  "title": "MTG Collection Tracker",
+  "short": "MTG Collection Tracker",
+  "description": "Haz seguimiento de tu colección MTG en una app.",
+  "hero": {
+    "title": "MTG Collection Tracker",
+    "description": "Sigue cartas, binders, mazos y valor de colección con menos caos."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Un <strong>MTG collection tracker</strong> más claro",
+      "description": "Mantén tu colección estructurada y buscable sin rehacerla a mano.",
+      "items": [
+        {
+          "title": "Binders y decks",
+          "description": "Organiza la colección como realmente la guardas y usas.",
+          "button": "Descarga la app",
+          "icon": "library-big"
+        },
+        {
+          "title": "Encuentra cartas rápido",
+          "description": "Busca por carta, edición, carpeta o etiqueta con menos fricción.",
+          "button": "Descarga la app",
+          "icon": "search-check"
+        },
+        {
+          "title": "Todo conectado",
+          "description": "Inventario, estructura y valor quedan en un mismo lugar.",
+          "button": "Descarga la app",
+          "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Sigue tu colección con más claridad",
+      "description": "Spellvault te ayuda a mantener inventario, mazos y carpetas mucho más ordenados.",
+      "button": "Descarga la app"
+    },
+    {
+      "type": "faqs",
+      "title": "Preguntas frecuentes",
+      "description": "Lo más importante sobre Spellvault como MTG collection tracker.",
+      "items": [
+        {
+          "title": "¿Qué hace un MTG collection tracker?",
+          "description": "Te ayuda a mantener inventario, estructura de colección y valor en un solo sitio."
+        },
+        {
+          "title": "¿Puedo seguir decks y binders?",
+          "description": "Sí. Spellvault está hecho para decks, binders, cajas y listas reales."
+        },
+        {
+          "title": "¿Sirve para colecciones grandes?",
+          "description": "Sí. Cuanto mayor es la colección, más útil resulta tener estructura y búsqueda."
+        },
+        {
+          "title": "¿Spellvault ayuda con duplicados?",
+          "description": "Sí. Controlar duplicados es una de las formas más rápidas de entender qué puedes mover o vender."
+        }
+      ]
+    }
+  ]
+}

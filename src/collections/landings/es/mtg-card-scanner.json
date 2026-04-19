@@ -1,0 +1,66 @@
+{
+  "id": "mtg-card-scanner",
+  "title": "MTG Card Scanner",
+  "short": "MTG Card Scanner",
+  "description": "Escanea cartas MTG rápido con Spellvault.",
+  "hero": {
+    "title": "MTG Card Scanner",
+    "description": "Escanea cartas Magic rápido y conviértelas en inventario limpio."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Un mejor <strong>MTG card scanner</strong>",
+      "description": "Pensado para entradas rápidas, identificación clara y registros listos para la colección.",
+      "items": [
+        {
+          "title": "Flujo de cámara rápido",
+          "description": "Escanea cartas seguidas sin frenar el ritmo.",
+          "button": "Descarga la app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Identificación limpia",
+          "description": "Mantén nombres y referencias bien organizados desde el inicio.",
+          "button": "Descarga la app",
+          "icon": "search-check"
+        },
+        {
+          "title": "Listo para inventario",
+          "description": "Lleva las cartas escaneadas directo a tu flujo de colección.",
+          "button": "Descarga la app",
+          "icon": "library-big"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Escanea cartas sin fricción de hojas de cálculo",
+      "description": "Usa Spellvault para capturar cartas rápido y mantener el inventario en movimiento.",
+      "button": "Descarga la app"
+    },
+    {
+      "type": "faqs",
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas sobre Spellvault como MTG card scanner.",
+      "items": [
+        {
+          "title": "¿Qué es un MTG card scanner?",
+          "description": "Un MTG card scanner te ayuda a capturar cartas Magic y convertirlas en registros de colección mucho más rápido."
+        },
+        {
+          "title": "¿Por qué usar Spellvault como MTG card scanner?",
+          "description": "Porque Spellvault une escaneo, inventario y gestión de colección en un solo flujo."
+        },
+        {
+          "title": "¿Puedo escanear muchas cartas en una sesión?",
+          "description": "Sí. Spellvault está pensado para cajas, binders o lotes completos de colección."
+        },
+        {
+          "title": "¿Puedo organizar las cartas después de escanear?",
+          "description": "Sí. El escaneo es solo el primer paso y después puedes seguir construyendo la estructura de la colección."
+        }
+      ]
+    }
+  ]
+}

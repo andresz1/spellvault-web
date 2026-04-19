@@ -1,0 +1,66 @@
+{
+  "id": "mtg-card-search",
+  "title": "MTG Card Search",
+  "short": "MTG Card Search",
+  "description": "Busca cartas MTG más rápido con Spellvault.",
+  "hero": {
+    "title": "MTG Card Search",
+    "description": "Busca tus cartas Magic más rápido y encuentra lo importante sin rebuscar en binders."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Un mejor <strong>MTG card search</strong>",
+      "description": "Spellvault te ayuda a pasar de inventario confuso a búsquedas rápidas y útiles.",
+      "items": [
+        {
+          "title": "Busca por carta",
+          "description": "Encuentra cartas por nombre sin revisar carpetas manualmente.",
+          "button": "Descarga la app",
+          "icon": "search-check"
+        },
+        {
+          "title": "Busca por contexto",
+          "description": "Usa filtros como set, etiqueta o ubicación cuando necesitas precisión.",
+          "button": "Descarga la app",
+          "icon": "library-big"
+        },
+        {
+          "title": "Encuentra cartas antes",
+          "description": "Convierte tu colección en algo realmente navegable.",
+          "button": "Descarga la app",
+          "icon": "zap"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Busca tu colección MTG con menos fricción",
+      "description": "Spellvault te da búsquedas más rápidas dentro de un inventario mucho más claro.",
+      "button": "Descarga la app"
+    },
+    {
+      "type": "faqs",
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas cortas sobre Spellvault como herramienta de MTG card search.",
+      "items": [
+        {
+          "title": "¿Qué es MTG card search?",
+          "description": "MTG card search te ayuda a encontrar cartas dentro de tu colección sin depender de memoria o revisión manual."
+        },
+        {
+          "title": "¿Puedo buscar por más cosas que el nombre?",
+          "description": "Sí. La búsqueda mejora mucho cuando puedes combinarla con estructura, etiquetas y contexto."
+        },
+        {
+          "title": "¿Por qué usar Spellvault para buscar cartas?",
+          "description": "Porque la búsqueda vive en el mismo sitio donde escaneas, organizas y sigues tu colección."
+        },
+        {
+          "title": "¿Sirve para colecciones grandes?",
+          "description": "Sí. Cuanto más crece la colección, más importante se vuelve poder buscar bien."
+        }
+      ]
+    }
+  ]
+}

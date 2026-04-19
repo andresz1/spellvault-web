@@ -1,0 +1,1 @@
+ALTER TABLE "videos" ADD COLUMN "music" varchar(2048);

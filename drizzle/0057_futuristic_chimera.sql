@@ -1,0 +1,1 @@
+ALTER TABLE "credits" RENAME COLUMN "expired" TO "is_expired";

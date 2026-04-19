@@ -1,0 +1,66 @@
+{
+  "id": "mtg-card-search",
+  "title": "MTG Card Search",
+  "short": "MTG Card Search",
+  "description": "Search MTG cards faster with Spellvault.",
+  "hero": {
+    "title": "MTG Card Search",
+    "description": "Search your Magic cards faster and find what matters without digging through binders."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "A better <strong>MTG card search</strong>",
+      "description": "Spellvault helps you move from vague inventory to fast, useful card lookup.",
+      "items": [
+        {
+          "title": "Search by card",
+          "description": "Find cards by name without digging through folders manually.",
+          "button": "Download the app",
+          "icon": "search-check"
+        },
+        {
+          "title": "Search by context",
+          "description": "Use filters like set, tag, or location when you need more precision.",
+          "button": "Download the app",
+          "icon": "library-big"
+        },
+        {
+          "title": "Find cards faster",
+          "description": "Turn your collection into something you can actually navigate.",
+          "button": "Download the app",
+          "icon": "zap"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Search your MTG collection with less friction",
+      "description": "Spellvault gives you faster card lookup inside a cleaner inventory.",
+      "button": "Download the app"
+    },
+    {
+      "type": "faqs",
+      "title": "Frequently Asked Questions",
+      "description": "Short answers about Spellvault as an MTG card search tool.",
+      "items": [
+        {
+          "title": "What is MTG card search?",
+          "description": "MTG card search helps you find cards faster inside your collection instead of relying on memory or manual browsing."
+        },
+        {
+          "title": "Can I search by more than card name?",
+          "description": "Yes. Search becomes much more useful when you can combine it with structure, tags, and collection context."
+        },
+        {
+          "title": "Why use Spellvault for card search?",
+          "description": "Spellvault gives you card search inside the same place where you scan, organize, and track your collection."
+        },
+        {
+          "title": "Is this useful for larger collections?",
+          "description": "Yes. Search becomes more valuable as your collection grows and memory stops being enough."
+        }
+      ]
+    }
+  ]
+}

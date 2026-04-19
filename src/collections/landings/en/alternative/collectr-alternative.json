@@ -1,0 +1,89 @@
+{
+  "id": "collectr-alternative",
+  "title": "Collectr Alternative",
+  "short": "Collectr Alternative",
+  "description": "A cleaner Collectr alternative for MTG tracking.",
+  "category": "comparison",
+  "hero": {
+    "title": "Collectr Alternative",
+    "description": "Spellvault is a Collectr alternative for MTG price tracking, scanning, and inventory management."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Why use this <strong>Collectr alternative</strong>",
+      "description": "Spellvault keeps card scanning, collection organization, and price tracking connected.",
+      "items": [
+        {
+          "title": "Track collection value",
+          "description": "See total value and card-level context together.",
+          "button": "Download the app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Scan new cards",
+          "description": "Bring new cards into your collection without extra friction.",
+          "button": "Download the app",
+          "icon": "scan-search"
+        },
+        {
+          "title": "Organize inventory",
+          "description": "Use folders, binders, and structure to keep the collection usable.",
+          "button": "Download the app",
+          "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Spellvault vs <strong>Collectr</strong>",
+      "description": "The differences that matter when you want more than a simple portfolio view.",
+      "competitor": "Collectr",
+      "rows": [
+        {
+          "feature": "Price tracking",
+          "inmoedit": true,
+          "competitor": true
+        },
+        {
+          "feature": "Card scanning",
+          "inmoedit": true,
+          "competitor": "Limited"
+        },
+        {
+          "feature": "Inventory organization",
+          "inmoedit": true,
+          "competitor": "Basic"
+        },
+        {
+          "feature": "Collection exports",
+          "inmoedit": true,
+          "competitor": false
+        }
+      ]
+    },
+    {
+      "type": "faqs",
+      "title": "Frequently Asked Questions",
+      "description": "Common questions when comparing Spellvault and Collectr.",
+      "items": [
+        {
+          "title": "Is Spellvault a good Collectr alternative?",
+          "description": "Yes. Spellvault works well if you want price tracking plus stronger scanning and collection structure."
+        },
+        {
+          "title": "What makes Spellvault different from Collectr?",
+          "description": "Spellvault focuses more on connected inventory workflows rather than just a value snapshot."
+        },
+        {
+          "title": "Can I scan cards in Spellvault?",
+          "description": "Yes. Scanning is part of the workflow, which makes it useful as a Collectr alternative."
+        },
+        {
+          "title": "Who should consider a Collectr alternative?",
+          "description": "Collectors and sellers who want more control over inventory structure should consider it."
+        }
+      ]
+    }
+  ]
+}

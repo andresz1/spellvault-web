@@ -1,0 +1,66 @@
+{
+  "id": "mtg-inventory-tracker",
+  "title": "MTG Inventory Tracker",
+  "short": "MTG Inventory Tracker",
+  "description": "Sigue inventario MTG con menos trabajo manual.",
+  "hero": {
+    "title": "MTG Inventory Tracker",
+    "description": "Sigue copias, carpetas, stock y exportaciones desde una vista de inventario mucho más clara."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "Un <strong>MTG inventory tracker</strong> más simple",
+      "description": "Usa un solo lugar para cartas, movimiento de stock y exportaciones de colección.",
+      "items": [
+        {
+          "title": "Copias bien controladas",
+          "description": "Ten claro qué tienes, dónde está y qué está disponible.",
+          "button": "Descarga la app",
+          "icon": "repeat-2"
+        },
+        {
+          "title": "Exporta cuando haga falta",
+          "description": "Prepara inventarios para revisión, compartir o backup en menos tiempo.",
+          "button": "Descarga la app",
+          "icon": "file-text"
+        },
+        {
+          "title": "Inventario más usable",
+          "description": "Pasa de stock en bruto a una colección mucho más clara.",
+          "button": "Descarga la app",
+          "icon": "folder-kanban"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Sigue inventario MTG sin desorden",
+      "description": "Spellvault te ayuda a gestionar cartas, copias y exportaciones con más claridad.",
+      "button": "Descarga la app"
+    },
+    {
+      "type": "faqs",
+      "title": "Preguntas frecuentes",
+      "description": "Lo más importante sobre Spellvault como MTG inventory tracker.",
+      "items": [
+        {
+          "title": "¿Qué es un MTG inventory tracker?",
+          "description": "Un MTG inventory tracker te ayuda a gestionar cartas, copias, ubicaciones y stock de forma más usable."
+        },
+        {
+          "title": "¿Puedo seguir duplicados y niveles de stock?",
+          "description": "Sí. Spellvault facilita ver copias repetidas y entender qué está disponible."
+        },
+        {
+          "title": "¿Puedo exportar mi inventario?",
+          "description": "Sí. Exportar inventario es útil para compartir, revisar o guardar un respaldo."
+        },
+        {
+          "title": "¿Sirve para tiendas y vendedores?",
+          "description": "Sí. Un inventario más limpio es útil tanto para coleccionistas como para quien vende cartas."
+        }
+      ]
+    }
+  ]
+}

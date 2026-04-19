@@ -1,0 +1,66 @@
+{
+  "id": "mtg-price-checker",
+  "title": "MTG Price Checker",
+  "short": "MTG Price Checker",
+  "description": "Check MTG card prices quickly.",
+  "hero": {
+    "title": "MTG Price Checker",
+    "description": "Check Magic card prices fast and keep decisions grounded in your collection."
+  },
+  "sections": [
+    {
+      "type": "features",
+      "title": "A better <strong>MTG price checker</strong>",
+      "description": "See card value quickly without losing the collection context around it.",
+      "items": [
+        {
+          "title": "Quick price checks",
+          "description": "Review card prices without jumping between disconnected tools.",
+          "button": "Download the app",
+          "icon": "bar-chart-2"
+        },
+        {
+          "title": "Collection-aware context",
+          "description": "Understand a card price alongside your copies and inventory.",
+          "button": "Download the app",
+          "icon": "wallet-cards"
+        },
+        {
+          "title": "Cleaner decisions",
+          "description": "Know what is worth checking, holding, buying, or moving.",
+          "button": "Download the app",
+          "icon": "bell-ring"
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Check MTG prices with less guesswork",
+      "description": "Spellvault makes price checks faster and easier to act on.",
+      "button": "Download the app"
+    },
+    {
+      "type": "faqs",
+      "title": "Frequently Asked Questions",
+      "description": "Short answers about Spellvault as an MTG price checker.",
+      "items": [
+        {
+          "title": "What is an MTG price checker?",
+          "description": "An MTG price checker helps you review card prices quickly so you can make better buy, hold, or sell decisions."
+        },
+        {
+          "title": "Why use Spellvault for price checking?",
+          "description": "Spellvault connects price checks to your real inventory, which makes the information more useful."
+        },
+        {
+          "title": "Can I check prices while tracking my collection?",
+          "description": "Yes. That is one of the main reasons to use Spellvault instead of a disconnected price tool."
+        },
+        {
+          "title": "Is this useful for sellers too?",
+          "description": "Yes. Price checks matter whether you collect, trade, or manage inventory for sale."
+        }
+      ]
+    }
+  ]
+}

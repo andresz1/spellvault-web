@@ -1,0 +1,913 @@
+{
+  "generic-error": {
+    "title": "Oops! Something went wrong",
+    "description": "Try again later"
+  },
+  "auth": {
+    "login": {
+      "dialog": {
+        "title": "Log in",
+        "register-link": "Don't have an account? <a>Sign up</a>",
+        "recovery-link": "Forgot your password? <a>Recover it</a>",
+        "submit-button": "Log in",
+        "google-button": "Log in with Google"
+      },
+      "form": {
+        "email-label": "Email",
+        "email-required": "Email is required",
+        "email-invalid": "Invalid email",
+        "password-label": "Password",
+        "password-required": "Password is required",
+        "password-min": "Password must be at least 6 characters"
+      }
+    },
+    "password-edition": {
+      "form": {
+        "password-label": "Password",
+        "password-required": "Password is required",
+        "password-min": "Password must be at least 6 characters"
+      }
+    },
+    "register": {
+      "dialog": {
+        "title": "Sign up",
+        "login-link": "Already have an account? <a>Log In</a>",
+        "submit-button": "Sign up",
+        "google-button": "Sign up with Google"
+      },
+      "form": {
+        "email-label": "Email",
+        "email-required": "Email is required",
+        "email-invalid": "Invalid email",
+        "password-label": "Password",
+        "password-required": "Password is required",
+        "password-min": "Password must be at least 6 characters"
+      }
+    },
+    "recovery": {
+      "dialog": {
+        "title": "Recover your password",
+        "submit-button": "Send email",
+        "success": {
+          "title": "Email Sent!",
+          "description": "Follow the instructions provided in the email."
+        }
+      },
+      "form": {
+        "email-label": "Email",
+        "email-required": "Email is required",
+        "email-invalid": "Invalid email"
+      }
+    }
+  },
+  "header": {
+    "logo": "Home",
+    "close-button": "Close",
+    "login-button": "Login",
+    "menu": {
+      "subscribe-button": "Update plan",
+      "nav-list": {
+        "account": "Account",
+        "subscription": "Subscription",
+        "support": "Support",
+        "logout": "Logout"
+      }
+    }
+  },
+  "sidebar": {
+    "home": "Home",
+    "projects": "Projects",
+    "tutorials": "Tutorials",
+    "help": "Help",
+    "help-text": "Hello, I need help with Spellvault.",
+    "settings": "Settings",
+    "menu-item": {
+      "edit": "Editar",
+      "delete": "Eliminar"
+    },
+    "subscribe-button": "Upgrade plan",
+    "credits": {
+      "label": "Available credits: {{count}}",
+      "tooltip": "Each edit consumes one credit. Upgrade to Pro to get more credits.",
+      "tooltip-pro": "Unlimited individual edits. One credit per photo in automatic batch enhancement. Three credits for a video from a photo."
+    }
+  },
+  "lang": {
+    "button": "Change language",
+    "menu": {
+      "title": "Language",
+      "en": "English",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "it": "Italian",
+      "pt": "Portuguese"
+    }
+  },
+  "footer": {
+    "products": {
+      "title": "Products"
+    },
+    "features": {
+      "title": "Features"
+    },
+    "compare": {
+      "title": "Compare"
+    },
+    "tutorials": {
+      "title": "Tutorials",
+      "see-all": "See all"
+    },
+    "legal": {
+      "title": "Legal",
+      "warning": "Legal Notice",
+      "cookies": "Cookie Policy",
+      "privacy": "Privacy Policy",
+      "refund": "Refund Policy"
+    },
+    "about": {
+      "title": "About us",
+      "work-with-us": "Work with us",
+      "pricing": "Pricing",
+      "contact-us": "Contact us",
+      "blog": "Blog",
+      "tutorials": "Tutorials and Courses"
+    },
+    "blog": {
+      "title": "Blog"
+    },
+    "copyright": "Copyright © Spellvault",
+    "solutions": {
+      "title": "Solutions"
+    }
+  },
+  "payment": {
+    "pricing": {
+      "popular-badge": "Most Popular",
+      "pay-button": "Get Started",
+      "free-button": "Start Free",
+      "discount": "Limited time offer",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save-badge": "-25%",
+      "per-month": "/month",
+      "billed-yearly": "Billed Annually",
+      "billed-monthly": "Billed Monthly",
+      "credits-yearly": "{{count}} credits every year",
+      "credits-monthly": "{{count}} credits every month",
+      "pro": {
+        "title": "Pro",
+        "items": [
+          {
+            "label": "<b>Magic card scanner</b>",
+            "description": "Scan cards and turn them into structured inventory quickly",
+            "badge": "Unlimited"
+          },
+          {
+            "label": "<b>Collection manager</b>",
+            "description": "Organize binders, boxes, decks, and lists with a clear inventory view",
+            "badge": "Unlimited"
+          },
+          {
+            "label": "<b>Price tracking</b>",
+            "description": "Track both individual cards and full collection value",
+            "badge": "1 credit"
+          },
+          {
+            "label": "<b>Smart alerts</b>",
+            "description": "Get notified when an important card moves",
+            "badge": "3 credits"
+          },
+          {
+            "label": "<b>Duplicates and stock</b>",
+            "description": "Spot repeat copies and separate sell, keep, and in-use cards",
+            "badge": "Unlimited"
+          },
+          {
+            "label": "<b>Exports</b>",
+            "description": "Prepare inventory for selling, insurance, accounting, or backup",
+            "badge": "Unlimited"
+          },
+          {
+            "label": "<b>Per-card history</b>",
+            "description": "Review the value evolution of each card inside your portfolio",
+            "badge": "Per use"
+          },
+          {
+            "label": "Collections for <b>play</b> and <b>selling</b>",
+            "description": "Work with decks, binders, and sales lists without duplicating effort",
+            "badge": "Unlimited"
+          },
+          {
+            "label": "<b>Priority Support</b> and updates",
+            "description": "Direct access to the team and every new Spellvault improvement"
+          }
+        ]
+      }
+    },
+    "paywall-dialog": {
+      "title": "Your collection needs more room",
+      "description": "Upgrade to Pro and keep scanning, organizing, and tracking prices without friction. <b>50% off for a limited time!</b>",
+      "button": "See prices with 50% discount",
+      "demo-button": "Schedule demo"
+    },
+    "credit-dialog": {
+      "title": "You've run out of credits",
+      "description": "You can buy more credits or wait for them to recharge. Additional credits do not expire."
+    },
+    "credit-card": {
+      "popular-badge": "Most Popular",
+      "credits-label": "{{count}} credits",
+      "per-credit": "€{{price}} per credit",
+      "buy-button": "Buy"
+    }
+  },
+  "image-editor": {
+    "default-textbox": "Black Lotus",
+    "top-bar": {
+      "compare-button": "View before and after",
+      "compare-close-button": "Close comparison",
+      "back-button": "Back",
+      "positive-review-button": "Mark as positive edit",
+      "negative-review-button": "Mark as negative edit",
+      "download-button": "Export"
+    },
+    "input-bar": {
+      "tools-button": "Tools",
+      "prompt-placeholder": "Describe what you want to change",
+      "prompt-inpaint-placeholder": "Select and describe what you want to change",
+      "submit-button": "Generate photo",
+      "remove-brush-button": "Remove selection",
+      "close-button": "Close",
+      "menu": {
+        "brush-inpaint": "Select",
+        "place": "Visual editor"
+      }
+    },
+    "brush-bar": {
+      "close-button": "Close",
+      "remove-brush-button": "Remove selection",
+      "submit-button": "Generate photo"
+    },
+    "remove-bar": {
+      "description": "Select and describe the object you want to remove"
+    },
+    "textbox-bar": {
+      "description": "Click, drag, and describe what you want to change"
+    },
+    "furnish-bar": {
+      "description": "Select and describe the areas you want to furnish"
+    },
+    "bottom-bar": {
+      "furnish": {
+        "title": "Furnish",
+        "menu": {
+          "all": "All",
+          "all-tooltip": "Automatically furnish the entire space",
+          "draw": "Selection",
+          "draw-tooltip": "Paint over the photo the areas you want to furnish"
+        }
+      },
+      "empty": {
+        "title": "Empty",
+        "menu": {
+          "all": "All",
+          "all-tooltip": "Automatically empty the entire space",
+          "draw": "Selection",
+          "draw-tooltip": "Paint over the photo the object you want to remove"
+        }
+      },
+      "renovate": {
+        "title": "Renovate",
+        "menu": {
+          "all": "All",
+          "all-tooltip": "Automatically renovate the entire space",
+          "refloor": "Floor",
+          "refloor-tooltip": "Change the floor to your favorite material",
+          "paint": "Walls",
+          "paint-tooltip": "Change the color of the walls"
+        }
+      },
+      "camera": {
+        "title": "Camera",
+        "menu": {
+          "right": "Rotate right",
+          "right-tooltip": "Rotate the camera position 45 degrees to the right",
+          "left": "Rotate left",
+          "left-tooltip": "Rotate the camera position 45 degrees to the left",
+          "zoom-in": "Zoom in",
+          "zoom-in-tooltip": "Zoom the camera in",
+          "up": "Bird’s-eye view",
+          "up-tooltip": "Lift and tilt the camera downward",
+          "down": "Worm’s-eye view",
+          "down-tooltip": "Lower and tilt the camera upward"
+        }
+      },
+      "improve": {
+        "title": "Enhance",
+        "menu": {
+          "beautify": "Lighting",
+          "beautify-tooltip": "Enhance colors, lighting, and details",
+          "declutter": "Declutter",
+          "declutter-tooltip": "Remove clutter and distractions",
+          "perspective": "Correct perspective",
+          "beautify-perspective": "Beautify and correct",
+          "blue-sky": "Blue sky",
+          "blue-sky-tooltipo": "Replace gray sky with blue sky",
+          "turn-off-tv": "TV without reflections",
+          "turn-off-tv-tooltip": "Turn off the TV and remove reflections",
+          "blur": "Blur exterior",
+          "blur-tooltip": "Blur exterior to prevent others from knowing the location",
+          "beautify-pool": "Pool",
+          "beautify-pool-tooltip": "Fill and clean the pool",
+          "upscale": "Upscale to 4K",
+          "upscale-tooltip": "Enhance resolution to 4K",
+          "remove-watermark": "Remove watermark",
+          "remove-watermark-tooltip": "Remove watermark from the photo",
+          "perspective-tooltip": "Fix perspective",
+          "blue-sky-tooltip": "Replace gray sky with blue sky"
+        }
+      },
+      "remove": "Remove",
+      "close": "Close",
+      "remove-all-brushes": "Remove all brushes",
+      "generate-furniture": "Generate furniture",
+      "zoom-out": "Zoom out",
+      "zoom-in": "Zoom in",
+      "watermark": {
+        "title": "Watermark"
+      },
+      "elements": {
+        "title": "Elements",
+        "menu": {
+          "watermark": "Watermark",
+          "caption": "Caption"
+        }
+      },
+      "generate": "Generate"
+    },
+    "furnish": {
+      "dialog": {
+        "title": "Furnish",
+        "description": "Select a style",
+        "submit-button": "Apply"
+      },
+      "form": {
+        "style-label": "Style",
+        "style-required": "Style is required",
+        "type-label": "Space",
+        "type-required": "Space is required",
+        "type-placeholder": "Select space",
+        "custom-label": "Custom space",
+        "custom-required": "Custom space is required",
+        "custom-placeholder": "Gamer room"
+      }
+    },
+    "paint": {
+      "dialog": {
+        "title": "Paint walls",
+        "description": "Select a color",
+        "submit-button": "Apply"
+      },
+      "form": {
+        "color-label": "Color"
+      }
+    },
+    "refloor": {
+      "dialog": {
+        "title": "Change floor",
+        "description": "Select a material",
+        "submit-button": "Apply"
+      },
+      "form": {
+        "material-label": "Material"
+      }
+    },
+    "renovation": {
+      "dialog": {
+        "title": "Renovate",
+        "description": "Completely renovate your space by selecting a style and configuring the renovation options.",
+        "submit-button": "Apply"
+      },
+      "form": {
+        "style-label": "Style",
+        "style-required": "Style is required",
+        "type-label": "Space",
+        "type-required": "Space is required",
+        "type-placeholder": "Select space",
+        "custom-label": "Custom space",
+        "custom-required": "Custom space is required",
+        "custom-placeholder": "Gamer room",
+        "details-label": "Details",
+        "preserve-windows": "Preserve windows",
+        "furnish": "Furnish",
+        "creativity": "Creativity",
+        "preserve-parts": "Preserve parts",
+        "creativity-low": "Low",
+        "creativity-high": "High"
+      }
+    },
+    "place": {
+      "dialog": {
+        "title": "Place furniture",
+        "description": "Search for a piece of furniture and we’ll place it in the space.",
+        "submit-button": "Apply"
+      },
+      "form": {
+        "url-label": "URL",
+        "url-required": "URL is required",
+        "url-invalid": "Please enter a valid URL",
+        "url-placeholder": "https://www.ikea.com/us/en/p/billy-bookcase-white-00263850/"
+      }
+    },
+    "styles": {
+      "minimalist": "Minimalist",
+      "traditional": "Traditional",
+      "scandinavian": "Scandinavian",
+      "mid-century": "Mid-century",
+      "industrial": "Industrial",
+      "mediterranean": "Mediterranean",
+      "modern": "Modern",
+      "bohemian": "Bohemian",
+      "pyrenees": "Pyrenees"
+    },
+    "room-types": {
+      "auto": "Auto",
+      "living-room": "Living Room",
+      "single-bedroom": "Single Bedroom",
+      "bedroom": "Bedroom",
+      "kitchen": "Kitchen",
+      "office": "Office",
+      "terrace": "Terrace",
+      "dining-room": "Dining Room",
+      "bathroom": "Bathroom",
+      "entryway": "Entryway",
+      "kitchen-dining": "Kitchen and Dining Room",
+      "dining-living": "Dining and Living Room",
+      "other": "Other"
+    },
+    "materials": {
+      "floor": {
+        "ash": "Ash",
+        "walnut": "Walnut",
+        "polished-concrete": "Polished concrete",
+        "composite": "Composite",
+        "grass": "Grass",
+        "terracota": "Terracotta",
+        "gres-porcelain": "Porcelain stoneware",
+        "pool": "Pool"
+      },
+      "wall": {
+        "white": "White",
+        "beige": "Beige",
+        "white-tiles": "White tiles",
+        "composite": "Composite"
+      }
+    },
+    "watermark": {
+      "dialog": {
+        "title": "Add Watermark",
+        "description": "Customize and add a watermark to your image.",
+        "submit-button": "Apply"
+      },
+      "form": {
+        "text": "Text",
+        "text-placeholder": "Enter watermark text",
+        "font-size": "Font Size",
+        "opacity": "Opacity",
+        "position": "Position",
+        "color": "Color"
+      },
+      "position": {
+        "top-left": "Top Left",
+        "top-right": "Top Right",
+        "center": "Center",
+        "bottom-left": "Bottom Left",
+        "bottom-right": "Bottom Right"
+      }
+    },
+    "elements": {
+      "watermark": {
+        "dialog": {
+          "title": "Add Watermark",
+          "description": "Add a watermark logo to your image.",
+          "submit-button": "Apply"
+        },
+        "form": {
+          "opacity": "Opacity",
+          "scale": "Scale"
+        }
+      },
+      "caption": {
+        "dialog": {
+          "title": "Add Caption",
+          "description": "Add a text caption to your image.",
+          "submit-button": "Apply"
+        },
+        "form": {
+          "text": "Caption Text",
+          "text-placeholder": "Enter your caption",
+          "font-size": "Font Size",
+          "opacity": "Opacity",
+          "color": "Color"
+        }
+      }
+    },
+    "review-dialog": {
+      "title": "Help us improve",
+      "description": "Add your comments or feedback about this image",
+      "comment-label": "Comment",
+      "comment-placeholder": "Add your feedback or comments here...",
+      "comment-required": "Comment is required",
+      "cancel": "Cancel",
+      "submit": "Submit"
+    },
+    "upload-dialog": {
+      "title": "Upload image",
+      "description": "Select an image from your device",
+      "save": "Save"
+    },
+    "upload-form": {
+      "image-label": "Upload image",
+      "image-required": "Please select an image file"
+    },
+    "upload-input": {
+      "title": "Upload image",
+      "description": "JPG, PNG or WebP (up to 10MB)"
+    },
+    "watermark-bar": {
+      "done-button": "Done editing watermark",
+      "remove-button": "Remove watermark",
+      "opacity": "Opacity",
+      "vertical-position": "Vertical position",
+      "horizontal-position": "Horizontal position",
+      "position-top-left": "Top left",
+      "position-top-right": "Top right",
+      "position-center-center": "Center",
+      "position-center-left": "Center left",
+      "position-center-right": "Center right",
+      "position-bottom-left": "Bottom left",
+      "position-bottom-right": "Bottom right"
+    },
+    "text-bar": {
+      "done-button": "Done editing text",
+      "remove-button": "Remove text",
+      "text": "Text",
+      "text-placeholder": "Enter your text",
+      "font-size": "Font Size",
+      "opacity": "Opacity",
+      "color": "Color"
+    }
+  },
+  "video-editor": {
+    "empty-state": {
+      "title": "Add your first sequence",
+      "description": "Turn card highlights, lists, or screenshots into short videos you can share",
+      "button": "Create"
+    },
+    "listing-form": {
+      "location-label": "Collection",
+      "location-placeholder": "Enter collection name",
+      "location-required": "Collection is required",
+      "price-label": "Total value",
+      "price-placeholder": "Enter total value",
+      "price-required": "Total value is required",
+      "currency-label": "Currency",
+      "currency-placeholder": "Select currency",
+      "bedrooms-label": "Number of cards",
+      "bedrooms-placeholder": "Enter number of cards",
+      "bedrooms-required": "Number of cards is required",
+      "bathrooms-label": "Rare or mythic cards",
+      "bathrooms-placeholder": "Enter rare or mythic count",
+      "bathrooms-required": "This value is required",
+      "area-label": "Binders or boxes",
+      "area-placeholder": "Enter number of binders or boxes",
+      "area-required": "This value is required",
+      "reference-number-label": "Internal reference",
+      "reference-number-placeholder": "Enter internal reference",
+      "reference-number-required": "Internal reference is required"
+    },
+    "listing-dialog": {
+      "title": "Collection details",
+      "description": "Enter the main details for the collection or lot.",
+      "submit-button": "Save"
+    },
+    "sequence-dialog": {
+      "title-add": "Sequence",
+      "title-select-image": "Images",
+      "title-select-clip": "Clips",
+      "title-image-usage": "How to use this image?",
+      "description-type-selection": "Choose the type of sequence you want to add",
+      "description-image-selection": "Select one or more images to add to your video",
+      "description-clip-selection": "Select one or more clips to add to your video",
+      "description-image-usage": "Choose to display as static or animate with zoom",
+      "sequence-type-slide": "Slide",
+      "sequence-type-slide-description": "Create a custom slide with text",
+      "sequence-type-image": "Images",
+      "sequence-type-image-description": "Add images from your project",
+      "sequence-type-clip-description": "Add clips from your project",
+      "sequence-type-clip": "Clips",
+      "sequence-type-upload": "Upload video",
+      "sequence-type-upload-description": "Upload a video from your device",
+      "title-upload": "Upload video",
+      "description-upload": "Upload a video file from your device",
+      "uploading": "Uploading...",
+      "drop-video": "Drop video here",
+      "drag-or-click": "Upload videos",
+      "supported-formats": "MP4, MOV, AVI, WebM",
+      "upload-success": "Video uploaded successfully",
+      "upload-success-multiple": "{{count}} video uploaded successfully",
+      "upload-success-multiple_other": "{{count}} videos uploaded successfully",
+      "upload-error": "Failed to upload video. Please try again.",
+      "image-type-static": "Static Image",
+      "image-type-static-description": "Show image without animation",
+      "image-type-zoom-in": "Zoom In",
+      "image-type-zoom-in-description": "Slowly zoom in on the image",
+      "image-type-zoom-out": "Zoom Out",
+      "image-type-zoom-out-description": "Slowly zoom out from the image",
+      "no-images-title": "No images available",
+      "no-clips-title": "No clips available",
+      "no-images-description": "Upload some images to your project first",
+      "no-clips-description": "Create some clips for your project first",
+      "button-next": "Next",
+      "button-back": "Back",
+      "button-add": "Add",
+      "generating-video": "Generating video sequence...",
+      "generating-message": "This may take a few moments",
+      "generating-button": "Generating video..."
+    },
+    "settings-dialog": {
+      "button-label": "Settings",
+      "title": "Settings",
+      "description": "Configure your video’s dimensions and quality",
+      "video-title-label": "Title",
+      "video-title-required": "Title is required",
+      "video-title-placeholder": "Enter title",
+      "format-label": "Format",
+      "format-portrait": "Portrait",
+      "format-landscape": "Landscape",
+      "format-square": "Square",
+      "dimensions-portrait": "1080 x 1920",
+      "dimensions-landscape": "1920 x 1080",
+      "dimensions-square": "1080 x 1080",
+      "submit-button": "Save"
+    },
+    "image-selection-dialog": {
+      "title": "Select images",
+      "description": "Choose one or more images to add to your video",
+      "submit-button": "Add",
+      "empty-state-title": "No images available",
+      "empty-state-description": "Upload some images to your project first",
+      "empty-state-button": "Upload"
+    },
+    "clip-selection-dialog": {
+      "title": "Select clips",
+      "description": "Choose one or more clips to add to your video",
+      "submit-button": "Add",
+      "empty-state-title": "No clips available",
+      "empty-state-description": "Create some clips for your project first",
+      "empty-state-button": "Create"
+    },
+    "crop-dialog": {
+      "title": "Crop",
+      "description": "Adjust the start and end points of your video.",
+      "duration": "Duration: {{time}}s",
+      "submit-button": "Apply"
+    },
+    "speed-dialog": {
+      "title": "Speed",
+      "description": "Adjust the playback speed of your video.",
+      "restart-button": "Restart",
+      "save-button": "Save",
+      "recording-button": "Recording",
+      "record-button": "Record"
+    },
+    "template-form": {
+      "template-label": "Template",
+      "template-1-label": "Template 1",
+      "template-2-label": "Template 2"
+    },
+    "template-dialog": {
+      "title": "Template",
+      "description": "Select a template for your video",
+      "submit-button": "Apply"
+    },
+    "audio-form": {
+      "audio-file-label": "Background music",
+      "audio-file-required": "Please select a background music",
+      "select-placeholder": "Select a music track"
+    },
+    "audio-dialog": {
+      "title": "Audio",
+      "description": "Choose background music for your video",
+      "cancel-button": "Cancel",
+      "save-button": "Save"
+    },
+    "right-panel": {
+      "menu": {
+        "settings": "Settings",
+        "listing-details": "Listing details",
+        "template": "Template",
+        "style": "Brand and Style",
+        "audio": "Audio"
+      },
+      "no-selection": "Select or create a sequence to start editing",
+      "loading": "Your sequence is being generated (1–2 min). You can continue creating others while you wait.",
+      "title": "Properties",
+      "duration-label": "Duration",
+      "duration-range": "Duration must be between 1 and 9 seconds",
+      "animation-label": "Animation",
+      "animation-none": "None",
+      "animation-zoom-in": "Zoom In",
+      "animation-zoom-out": "Zoom Out",
+      "animation-barrel-left": "Barrel Left",
+      "animation-barrel-right": "Barrel Right",
+      "slide-title-label": "Title",
+      "slide-title-placeholder": "Enter slide title",
+      "slide-subtitle-label": "Subtitle",
+      "slide-subtitle-placeholder": "Enter slide subtitle",
+      "slide-text-label": "Text",
+      "slide-bg-color-label": "Background color",
+      "slide-text-color-label": "Text color",
+      "slide-font-size-label": "Font size",
+      "image-text-label": "Text",
+      "image-text-placeholder": "Enter text to display on the image",
+      "video-text-label": "Text",
+      "video-text-placeholder": "Enter text to display on the video",
+      "text-color-label": "Text color",
+      "text-background-color-label": "Text background color",
+      "font-size-label": "Font size",
+      "video-volume-label": "Volume: {{volume}}%",
+      "video-crop-button": "Crop",
+      "video-speed-button": "Speed",
+      "show-logo-label": "Show logo",
+      "convert-to-video-button": "Convert to video"
+    },
+    "bottom-bar": {
+      "upload": "Upload",
+      "video": "Video",
+      "clips": "Clips",
+      "images": "Images",
+      "slide": "Slide",
+      "ia": "IA"
+    },
+    "download-button": {
+      "download-video": "Export",
+      "starting": "Starting rendering...",
+      "rendering": "Rendering: {{progress}}%",
+      "download": "Download",
+      "render-again": "Render Again",
+      "error-try-again": "Error - Try Again",
+      "processing": "Processing Video",
+      "ready": "Video Ready",
+      "complete": "Your video is ready to download",
+      "error": "An error occurred during rendering",
+      "close": "Close",
+      "exports": "Exports",
+      "export": "export",
+      "clear-all": "Clear all",
+      "no-exports": "No exports yet",
+      "seconds-ago": "{{count}} second ago",
+      "seconds-ago_other": "{{count}} seconds ago",
+      "minutes-ago": "{{count}} minute ago",
+      "minutes-ago_other": "{{count}} minutes ago",
+      "hours-ago": "{{count}} hour ago",
+      "hours-ago_other": "{{count}} hours ago",
+      "days-ago": "{{count}} day ago",
+      "days-ago_other": "{{count}} days ago"
+    },
+    "dialog": {
+      "title": "Edit Video",
+      "description": "Make changes to your video settings.",
+      "submit-button": "Apply"
+    },
+    "form": {
+      "resolution": "Resolution",
+      "frame-rate": "Frame Rate",
+      "bitrate": "Bitrate"
+    }
+  },
+  "download-button": {
+    "text": "Download",
+    "format-label": "Format",
+    "size-label": "Maximum size",
+    "size-1720": "Small (1720 px)",
+    "size-1920": "Medium (1920 px)",
+    "size-2048": "Large (2048 px)",
+    "size-custom": "Custom",
+    "custom-size-label": "Size:",
+    "caption-label": "Caption",
+    "caption-placeholder": "Managed with Spellvault",
+    "watermark-label": "Watermark",
+    "watermark-switch-label": "Include watermark",
+    "watermark-size-label": "Size",
+    "watermark-size-small": "Small",
+    "watermark-size-medium": "Medium",
+    "watermark-size-large": "Large",
+    "watermark-opacity-label": "Opacity",
+    "watermark-opacity-none": "None",
+    "watermark-opacity-low": "Low",
+    "watermark-opacity-medium": "Medium",
+    "watermark-opacity-high": "High",
+    "watermark-position-label": "Position",
+    "watermark-position-top-left": "Top left",
+    "watermark-position-top-center": "Top center",
+    "watermark-position-top-right": "Top right",
+    "watermark-position-center-left": "Center left",
+    "watermark-position-center-center": "Center",
+    "watermark-position-center-right": "Center right",
+    "watermark-position-bottom-left": "Bottom left",
+    "watermark-position-bottom-center": "Bottom center",
+    "watermark-position-bottom-right": "Bottom right",
+    "stamp-label": "Stamp",
+    "stamp-none": "None",
+    "stamp-reserved": "Reserved",
+    "stamp-sold": "Sold",
+    "stamp-custom": "Custom",
+    "stamp-custom-placeholder": "Sold",
+    "download-zip": "ZIP"
+  },
+  "onboarding": {
+    "title": "Welcome",
+    "continue-button": "Continue",
+    "back-button": "Back",
+    "schedule-button": "Schedule demo",
+    "finish-button": "Get started",
+    "steps": {
+      "step-1": {
+        "title": "Your collection starts getting organized with the first card",
+        "description": "Scan Magic cards, turn them into inventory, and start gaining real control without manual sheets."
+      },
+      "step-2": {
+        "title": "Track value and movement with context",
+        "description": "Check pricing, history, and alerts so you can understand your portfolio and spot opportunities earlier."
+      },
+      "step-3": {
+        "title": "Tell us about yourself",
+        "description": "We'll personalize your experience based on your role and needs. It will only take a moment."
+      },
+      "step-4": {
+        "title": "How did you find us?",
+        "description": "We'd love to know how you discovered us so we can keep improving and offer you the best possible experience."
+      },
+      "step-5": {
+        "title": "Share your number so we can assist you better",
+        "description": "Provide your phone number so we can reply to you and help you with any questions you may have."
+      },
+      "step-6": {
+        "title": "All set!",
+        "description": "Watch this short tutorial to get the most out of the tool."
+      }
+    },
+    "phone-number-label": "Phone number",
+    "phone-number-placeholder": "+1 (555) 000-0000",
+    "role-options": {
+      "real-estate": "Competitive Player",
+      "interior-designer": "Collector",
+      "photographer": "Store or Seller",
+      "home-owner": "Casual Player",
+      "architect": "Content Creator",
+      "other": "Other"
+    },
+    "source-options": {
+      "search-engine": "Search Engine (Google, Bing, etc.)",
+      "social-media": "Social Media",
+      "friend-referral": "Friend or colleague referral",
+      "blog-article": "Blog or article",
+      "youtube": "YouTube",
+      "other": "Other"
+    }
+  },
+  "hero-image-comparison": {
+    "before": "Before",
+    "after": "After",
+    "items": [
+      {
+        "label": "View AI card scanning example",
+        "before": "/images/home/home-staging-before.jpeg",
+        "after": "/images/home/home-staging-after.jpeg",
+        "before-alt": "Card waiting to be identified",
+        "after-alt": "Card identified inside Spellvault",
+        "icon": "sofa"
+      },
+      {
+        "label": "View example of cleaning and decluttering with AI",
+        "before": "/images/home/hero-organize-before.jpeg",
+        "after": "/images/home/hero-organize-after.jpeg",
+        "before-alt": "Photo of a dirty and messy room",
+        "after-alt": "Collection organized inside Spellvault",
+        "icon": "eraser"
+      },
+      {
+        "label": "View price tracking example",
+        "before": "/images/home/hero-lighting-before.jpeg",
+        "after": "/images/home/hero-lighting-after.jpeg",
+        "before-alt": "Photo of a room with poor lighting",
+        "after-alt": "Card with updated price and history in Spellvault",
+        "icon": "sun"
+      }
+    ]
+  },
+  "pro": "Pro",
+  "free": "Free"
+}
