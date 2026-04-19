@@ -6,11 +6,10 @@ import { Trans, useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { FAQPageJsonLd, NextSeo } from "next-seo";
 import { Fragment } from "react";
-import { FaApple } from "react-icons/fa";
 
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
-import { CustomersMarquee } from "@/components/shared/customers-marquee";
+import { DownloadAppButton } from "@/components/shared/download-app-button";
 import { IPhoneFrame } from "@/components/shared/iphone-frame";
 import {
   Accordion,
@@ -125,12 +124,9 @@ export default function LandingPage({
                   </div>
 
                   <div className="flex items-center justify-center lg:justify-start">
-                    <Button>
-                      <Icon>
-                        <FaApple />
-                      </Icon>
+                    <DownloadAppButton>
                       {t("hero.start-button")}
-                    </Button>
+                    </DownloadAppButton>
                   </div>
                 </div>
 

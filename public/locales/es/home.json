@@ -1,162 +1,35 @@
 {
-  "meta.title": "Escáner de cartas Magic, colecciones y precios",
-  "meta.description": "Escanea cartas Magic, organiza tu colección y sigue precios en tiempo real con Spellvault. Todo tu portfolio MTG en una sola app.",
+  "meta.title": "Escáner de cartas Magic, gestor de colección y precios",
+  "meta.description": "Escanea cartas de Magic, organiza tu colección y sigue los precios en tiempo real con Spellvault. Tu portfolio de MTG en un solo lugar.",
   "hero": {
-    "badge": "Hecho para jugadores y coleccionistas de MTG",
+    "badge": "#1 entre coleccionistas de MTG",
     "title": "Todo tu <strong>universo Magic</strong> en una sola app",
-    "description": "Escanea cartas, organiza colecciones y sigue precios sin hojas de cálculo ni caos.",
-    "start-button": "Descarga la app",
+    "description": "Escanea cartas, organiza colecciones y sigue los precios sin hojas de cálculo ni caos.",
+    "start-button": "Descargar",
     "schedule-demo-button": "Ver demo",
-    "rating": "+10000 usuarios la aman",
-    "images": {
-      "before": "Antes",
-      "after": "Después",
-      "items": [
-        {
-          "label": "Ver ejemplo de escaneo de cartas con IA",
-          "before": "/images/home/home-staging-before.jpeg",
-          "after": "/images/home/home-staging-after.jpeg",
-          "before-alt": "Vista previa del escaneo de una carta antes de procesarla en Spellvault",
-          "after-alt": "Vista previa del escaneo de una carta identificada por Spellvault",
-          "icon": "scan-search"
-        },
-        {
-          "label": "Ver ejemplo de organización de colección",
-          "before": "/images/home/hero-organize-before.jpeg",
-          "after": "/images/home/hero-organize-after.jpeg",
-          "before-alt": "Colección sin organizar antes de usar Spellvault",
-          "after-alt": "Colección ordenada y etiquetada dentro de Spellvault",
-          "icon": "library-big"
-        },
-        {
-          "label": "Ver ejemplo de seguimiento de precios",
-          "before": "/images/home/hero-lighting-before.jpeg",
-          "after": "/images/home/hero-lighting-after.jpeg",
-          "before-alt": "Carta sin seguimiento de precio",
-          "after-alt": "Carta con histórico y precio actualizado en Spellvault",
-          "icon": "bar-chart-2"
-        }
-      ]
-    }
-  },
-  "trust": {
-    "title": "Usado por <strong>coleccionistas, tiendas y jugadores competitivos</strong>"
-  },
-  "image-features": {
-    "title": "<strong>Escanea y organiza</strong> sin fricción",
-    "description": "Pasa de una pila de cartas a una colección clara, filtrable y valorizada en minutos.",
-    "items": [
-      {
-        "title": "Escaneo rápido",
-        "description": "Apunta la cámara, identifica la carta y añádela a tu colección sin procesos manuales.",
-        "tag": "Escáner",
-        "before": "/images/home/furnish-before.jpeg",
-        "after": "/images/home/furnish-after.jpeg",
-        "before-alt": "Captura de carta pendiente de escanear",
-        "after-alt": "Carta escaneada y guardada en Spellvault"
-      },
-      {
-        "title": "Identificación precisa",
-        "description": "Detecta nombre, edición y datos clave para reducir errores al catalogar.",
-        "tag": "OCR",
-        "before": "/images/home/organize-before.jpeg",
-        "after": "/images/home/organize-after.jpeg",
-        "before-alt": "Carta con datos sin identificar",
-        "after-alt": "Carta identificada y clasificada por Spellvault"
-      },
-      {
-        "title": "Variantes y acabados",
-        "description": "Controla versiones foil, idiomas, sets y copias repetidas desde un solo flujo.",
-        "tag": "Detalles",
-        "before": "/images/home/renovate-before.jpeg",
-        "after": "/images/home/renovate-after.jpeg",
-        "before-alt": "Carta sin metadatos de variante",
-        "after-alt": "Carta con variante y edición registradas"
-      },
-      {
-        "title": "Carpetas, binders y decks",
-        "description": "Ordena tu colección como realmente la guardas: por carpeta, mazo, caja o formato.",
-        "before": "/images/home/declutter-before.jpeg",
-        "after": "/images/home/declutter-after.jpeg",
-        "before-alt": "Colección desordenada",
-        "after-alt": "Colección organizada por binders y decks en Spellvault"
-      },
-      {
-        "title": "Importación por lotes",
-        "description": "Registra muchas cartas seguidas sin perder contexto ni ritmo.",
-        "before": "/images/home/sky-before.jpeg",
-        "after": "/images/home/sky-after.jpeg",
-        "before-alt": "Lote de cartas pendiente de importar",
-        "after-alt": "Lote de cartas importado a Spellvault"
-      },
-      {
-        "title": "Exporta cuando quieras",
-        "description": "Saca tu inventario para compra, venta, seguro o contabilidad sin rehacer tu base.",
-        "before": "/images/home/lighting-before.jpeg",
-        "after": "/images/home/lighting-after.jpeg",
-        "before-alt": "Colección sin exportar",
-        "after-alt": "Colección exportada desde Spellvault"
-      }
-    ]
-  },
-  "video-features": {
-    "title": "<strong>Precios y movimientos</strong> en contexto",
-    "description": "Entiende cuánto vale tu colección hoy, qué cartas se mueven y dónde merece la pena prestar atención.",
-    "photo-badge": "Referencia",
-    "ai-badge": "Actualizado",
-    "items": [
-      {
-        "title": "Valor total de colección",
-        "description": "Consulta el valor agregado de tu portfolio y detecta cambios de un vistazo.",
-        "before": "/images/home/waterpool.jpg",
-        "after": "/images/home/waterpool_video.mp4"
-      },
-      {
-        "title": "Alertas de subidas y bajadas",
-        "description": "Recibe avisos cuando una carta importante se mueve y decide si vender, comprar o esperar.",
-        "before": "/images/home/outside.jpg",
-        "after": "/images/home/outside_video.mp4"
-      },
-      {
-        "title": "Histórico por carta",
-        "description": "Sigue la evolución de precio de cada carta para entender mejor tu colección.",
-        "before": "/images/home/bedroom.jpg",
-        "after": "/images/home/bedroom_video.mp4"
-      }
-    ]
-  },
-  "virtual-tours": {
-    "title": "<strong>Tu colección</strong> siempre al día",
-    "description": "Consulta inventario, valor, carpetas y cartas destacadas desde una sola vista clara.",
-    "image-alt": "Vista general de colección en Spellvault"
-  },
-  "try-free": "Probar gratis",
-  "banner": {
-    "title": "Empieza a ordenar tu colección hoy",
-    "description": "Escanea tus primeras cartas, crea tu estructura y empieza a seguir precios con Spellvault.",
-    "button": "Empezar gratis"
+    "rating": "+1000 usuarios lo aman"
   },
   "services": {
-    "title": "Las piezas clave de <strong>Spellvault</strong>",
-    "description": "La misma estructura simple para lo importante: escanear, ordenar y entender el valor real de tu colección.",
+    "title": "Los pilares clave de <strong>Spellvault</strong>",
+    "description": "La misma estructura sencilla para lo más importante: escanear, organizar y entender el valor real de tu colección.",
     "learn-more": "Saber más",
     "items": [
       {
         "key": "scan",
         "title": "Escáner de cartas Magic",
-        "description": "Captura cartas rápido, reduce errores de entrada y añade copias a tu colección sobre la marcha.",
+        "description": "Captura cartas rápidamente, reduce errores de entrada y añade copias a tu colección al instante.",
         "href": "/mtg-card-scanner"
       },
       {
         "key": "scan-speed",
         "title": "Escaneo rápido",
-        "description": "Registra muchas cartas seguidas con un flujo ágil pensado para cajas, binders y lotes completos.",
+        "description": "Registra muchas cartas seguidas con un flujo de trabajo diseñado para cajas, carpetas y sesiones completas de colección.",
         "href": "/mtg-card-scanner"
       },
       {
         "key": "collection",
         "title": "Gestor de colección MTG",
-        "description": "Organiza binders, cajas, decks y listas con una vista clara de inventario y duplicados.",
+        "description": "Organiza carpetas, cajas, mazos y listas con una vista clara del inventario y duplicados.",
         "href": "/mtg-collection-tracker"
       },
       {
@@ -168,13 +41,13 @@
       {
         "key": "alerts",
         "title": "Alertas inteligentes",
-        "description": "Mantente al tanto de movimientos relevantes y detecta oportunidades de compra o venta.",
+        "description": "Mantente al día de los movimientos relevantes y detecta oportunidades de compra o venta antes.",
         "href": "/mtg-price-checker"
       },
       {
         "key": "duplicates",
         "title": "Control de duplicados",
-        "description": "Detecta copias repetidas y entiende rápido qué cartas puedes mover, cambiar o guardar.",
+        "description": "Detecta copias repetidas y entiende rápidamente qué puedes vender, intercambiar o conservar.",
         "href": "/mtg-inventory-tracker"
       },
       {
@@ -186,34 +59,21 @@
       {
         "key": "export",
         "title": "Exportaciones listas para usar",
-        "description": "Saca tu inventario para compra, venta, seguro o control interno cuando lo necesites.",
+        "description": "Obtén tu inventario para vender, asegurar, control interno o copia de seguridad cuando lo necesites.",
         "href": "/mtg-inventory-tracker"
       },
       {
         "key": "pdf",
         "title": "Exportar colección a PDF",
-        "description": "Genera un PDF claro de tu colección para compartir, revisar o guardar como respaldo.",
+        "description": "Genera un PDF limpio de tu colección para compartir, revisar o guardar como copia de seguridad.",
         "href": "/mtg-inventory-tracker"
       }
     ]
   },
-  "publish": {
-    "title": "Sigue precios y referencias en <strong>las plataformas que ya usas</strong>",
-    "description": "Spellvault está pensado para convivir con tu flujo real de MTG: marketplaces, listas, mazos y herramientas de referencia.",
-    "badge": "Ecosistema",
-    "button": "Empezar gratis",
-    "items": [
-      { "name": "Cardmarket" },
-      { "name": "TCGplayer" },
-      { "name": "eBay" },
-      { "name": "Scryfall" },
-      { "name": "Moxfield" },
-      { "name": "Archidekt" }
-    ]
-  },
-  "pricing": {
-    "title": "Precios",
-    "description": "Una sola suscripción para escanear, organizar y seguir el valor de tu colección."
+  "banner": {
+    "title": "Empieza a organizar tu colección hoy",
+    "description": "Escanea tus primeras cartas, crea tu estructura y empieza a seguir precios con Spellvault.",
+    "button": "Empieza gratis"
   },
   "faqs": {
     "badge": "FAQs",
@@ -221,35 +81,35 @@
     "items": [
       {
         "title": "¿Qué es Spellvault?",
-        "description": "Spellvault es una <strong>app para escanear cartas Magic, gestionar colecciones y seguir precios</strong>. Está pensada para que coleccionistas, tiendas y jugadores tengan su inventario y valor de mercado en un solo lugar."
+        "description": "Spellvault es una <strong>app para escanear cartas de Magic, gestionar colecciones y seguir precios</strong>. Ofrece a coleccionistas, tiendas y jugadores un lugar único para gestionar inventario y valor de mercado."
       },
       {
         "title": "¿Cómo funciona el escáner de Spellvault?",
-        "description": "Abres el escáner, apuntas a la carta y Spellvault identifica la referencia para añadirla a tu colección. Después puedes completar detalles como copias, carpeta, estado o etiquetas."
+        "description": "Abre el escáner, apunta a la carta y Spellvault identifica la referencia para que puedas añadirla a tu colección. Después puedes completar detalles como copias, carpeta, estado o etiquetas."
       },
       {
-        "title": "¿Puedo organizar mi colección por binders, decks o cajas?",
-        "description": "Sí. Spellvault te permite estructurar la colección con la lógica que ya usas en el mundo real: <strong>binders</strong>, <strong>mazos</strong>, <strong>cajas</strong>, listas de venta o cualquier agrupación que te ayude a encontrar rápido tus cartas."
+        "title": "¿Puedo organizar mi colección por carpetas, mazos o cajas?",
+        "description": "Sí. Spellvault te permite estructurar tu colección como ya lo haces en la vida real: <strong>carpetas</strong>, <strong>mazos</strong>, <strong>cajas</strong>, listas de venta o cualquier agrupación que te ayude a encontrar cartas rápidamente."
       },
       {
-        "title": "¿Spellvault sigue precios de cartas individuales y del total de la colección?",
-        "description": "Sí. Puedes ver el valor de cada carta y también el valor agregado de tu colección para entender cómo evoluciona tu portfolio con el tiempo."
+        "title": "¿Spellvault sigue tanto cartas individuales como el valor total de la colección?",
+        "description": "Sí. Puedes ver el valor de cada carta y también el valor total de la colección para entender cómo evoluciona tu portfolio con el tiempo."
       },
       {
-        "title": "¿Sirve para comprar, vender o intercambiar cartas?",
-        "description": "Sí. Spellvault te ayuda a saber qué tienes, qué te falta, qué está subiendo y qué copias puedes mover. Es útil tanto para coleccionar como para vender o intercambiar con criterio."
+        "title": "¿Puedo usarlo para comprar, vender o intercambiar?",
+        "description": "Sí. Spellvault te ayuda a entender qué tienes, qué te falta, qué se está moviendo y qué copias están listas para intercambiar o vender."
       },
       {
-        "title": "¿Qué tipo de usuarios pueden aprovechar Spellvault?",
-        "description": "Spellvault está pensado para <strong>coleccionistas de MTG</strong>, <strong>jugadores competitivos</strong>, <strong>tiendas</strong>, <strong>vendedores</strong> y cualquier persona que quiera tener control real sobre sus cartas y su valor."
+        "title": "¿Para quién es Spellvault?",
+        "description": "Spellvault está pensado para <strong>coleccionistas de MTG</strong>, <strong>jugadores competitivos</strong>, <strong>tiendas</strong>, <strong>vendedores</strong> y cualquier persona que quiera tener un control real sobre sus cartas y su valor de mercado."
       },
       {
         "title": "¿Spellvault o Spell Vault?",
-        "description": "El nombre oficial es <strong>Spellvault</strong>. A veces puede aparecer separado como <strong>Spell Vault</strong>, pero ambos nombres se refieren a la misma plataforma."
+        "description": "El nombre oficial es <strong>Spellvault</strong>. A veces puede aparecer como <strong>Spell Vault</strong>, pero ambos se refieren a la misma plataforma."
       },
       {
-        "title": "¿Puedo cancelar mi suscripción cuando quiera?",
-        "description": "Sí. Puedes <strong>cancelar tu suscripción en cualquier momento</strong> desde tu cuenta, sin permanencias ni costes ocultos."
+        "title": "¿Puedo cancelar mi suscripción en cualquier momento?",
+        "description": "Sí. Puedes <strong>cancelar tu suscripción en cualquier momento</strong> desde tu cuenta, sin permanencia ni costes ocultos."
       }
     ]
   }

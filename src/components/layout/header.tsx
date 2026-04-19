@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import { ComponentPropsWithoutRef } from "react";
 
+import { DownloadAppButton } from "@/components/shared/download-app-button";
 import { ModeToggleButton } from "@/components/shared/mode-toggle-button";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/components/ui/core";
@@ -38,6 +39,10 @@ export const Header = ({ className, alternates, ...others }: HeaderProps) => {
         </div>
 
         <div className="flex gap-2 items-center">
+          <DownloadAppButton size="sm">
+            {t("header.download-button")}
+          </DownloadAppButton>
+
           <ModeToggleButton
             className="hidden md:flex"
             variant="ghost-secondary"
@@ -48,7 +53,6 @@ export const Header = ({ className, alternates, ...others }: HeaderProps) => {
             variant="ghost-secondary"
             alternates={alternates}
           />
-
         </div>
       </Container>
     </header>

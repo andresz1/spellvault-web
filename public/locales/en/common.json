@@ -1,6 +1,7 @@
 {
   "header": {
-    "logo": "Home"
+    "logo": "Home",
+    "download-button": "Download"
   },
   "lang": {
     "button": "Change language",
