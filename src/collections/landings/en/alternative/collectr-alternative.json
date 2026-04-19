@@ -43,22 +43,22 @@
       "rows": [
         {
           "feature": "Price tracking",
-          "inmoedit": true,
+          "app": true,
           "competitor": true
         },
         {
           "feature": "Card scanning",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Limited"
         },
         {
           "feature": "Inventory organization",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Basic"
         },
         {
           "feature": "Collection exports",
-          "inmoedit": true,
+          "app": true,
           "competitor": false
         }
       ]

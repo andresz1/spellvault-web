@@ -373,46 +373,44 @@ export default function LandingPage({
                               {row.feature}
                             </td>
 
-                            {[row.inmoedit, row.competitor].map(
-                              (value, index) => (
-                                <td
-                                  key={index}
-                                  className="relative text-center py-3 px-6 min-w-[120px]"
-                                >
-                                  {typeof value !== "boolean" ? (
-                                    <span className="text-muted-foreground text-xs">
-                                      {value}
-                                    </span>
-                                  ) : (
-                                    <>
-                                      {value ? (
-                                        <>
-                                          <Check
-                                            className="mx-auto size-4 text-primary"
-                                            aria-hidden="true"
-                                          />
+                            {[row.app, row.competitor].map((value, index) => (
+                              <td
+                                key={index}
+                                className="relative text-center py-3 px-6 min-w-[120px]"
+                              >
+                                {typeof value !== "boolean" ? (
+                                  <span className="text-muted-foreground text-xs">
+                                    {value}
+                                  </span>
+                                ) : (
+                                  <>
+                                    {value ? (
+                                      <>
+                                        <Check
+                                          className="mx-auto size-4 text-primary"
+                                          aria-hidden="true"
+                                        />
 
-                                          <span className="sr-only">
-                                            {t("comparison.yes")}
-                                          </span>
-                                        </>
-                                      ) : (
-                                        <>
-                                          <X
-                                            className="mx-auto size-4 text-muted-foreground/40"
-                                            aria-hidden="true"
-                                          />
+                                        <span className="sr-only">
+                                          {t("comparison.yes")}
+                                        </span>
+                                      </>
+                                    ) : (
+                                      <>
+                                        <X
+                                          className="mx-auto size-4 text-muted-foreground/40"
+                                          aria-hidden="true"
+                                        />
 
-                                          <span className="sr-only">
-                                            {t("comparison.no")}
-                                          </span>
-                                        </>
-                                      )}
-                                    </>
-                                  )}
-                                </td>
-                              ),
-                            )}
+                                        <span className="sr-only">
+                                          {t("comparison.no")}
+                                        </span>
+                                      </>
+                                    )}
+                                  </>
+                                )}
+                              </td>
+                            ))}
                           </tr>
                         ))}
                       </tbody>

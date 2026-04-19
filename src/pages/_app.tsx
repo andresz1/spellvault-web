@@ -110,8 +110,8 @@ const App = ({ Component, pageProps }: AppProps) => {
         url={hostname}
         logo={`${hostname}/logo.png`}
         sameAs={[
-          "https://www.instagram.com/inmoedit",
-          "https://www.youtube.com/@inmoedit",
+          "https://www.instagram.com/spellvault",
+          "https://www.youtube.com/@spellvault",
         ]}
       />
 
@@ -126,7 +126,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             <RootProgressBar />
 
             <AnalyticsProvider>
-                <Component {...pageProps} />
+              <Component {...pageProps} />
             </AnalyticsProvider>
           </div>
 

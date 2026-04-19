@@ -43,22 +43,22 @@
       "rows": [
         {
           "feature": "Card scanning",
-          "inmoedit": true,
+          "app": true,
           "competitor": true
         },
         {
           "feature": "Collection exports",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Limited"
         },
         {
           "feature": "Inventory structure",
-          "inmoedit": "Clear",
+          "app": "Clear",
           "competitor": "Depends on setup"
         },
         {
           "feature": "Price context inside collection",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Partial"
         }
       ]

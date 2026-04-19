@@ -87,7 +87,7 @@ export const Footer = ({
         },
         {
           text: t("footer.about.contact-us"),
-          href: "mailto:info@inmoedit.com",
+          href: "mailto:info@spellvault.com",
         },
       ],
     },
@@ -120,7 +120,7 @@ export const Footer = ({
                 asChild
               >
                 <a
-                  href="https://www.instagram.com/inmoedit"
+                  href="https://www.instagram.com/spellvault"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                 >
@@ -137,7 +137,7 @@ export const Footer = ({
                 asChild
               >
                 <a
-                  href="https://www.youtube.com/@inmoedit"
+                  href="https://www.youtube.com/@spellvault"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                 >

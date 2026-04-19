@@ -95,7 +95,7 @@ const landings = defineCollection({
           rows: z.array(
             z.object({
               feature: z.string(),
-              inmoedit: z.union([z.boolean(), z.string()]),
+              app: z.union([z.boolean(), z.string()]),
               competitor: z.union([z.boolean(), z.string()]),
             }),
           ),
