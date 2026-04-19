@@ -43,22 +43,22 @@
       "rows": [
         {
           "feature": "Seguimiento de precios",
-          "inmoedit": true,
+          "app": true,
           "competitor": true
         },
         {
           "feature": "Escaneo de cartas",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Limitado"
         },
         {
           "feature": "Organización de inventario",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Básica"
         },
         {
           "feature": "Exportaciones de colección",
-          "inmoedit": true,
+          "app": true,
           "competitor": false
         }
       ]

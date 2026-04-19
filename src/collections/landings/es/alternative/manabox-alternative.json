@@ -43,22 +43,22 @@
       "rows": [
         {
           "feature": "Escaneo de cartas",
-          "inmoedit": true,
+          "app": true,
           "competitor": true
         },
         {
           "feature": "Exportaciones de colección",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Limitado"
         },
         {
           "feature": "Estructura de inventario",
-          "inmoedit": "Clara",
+          "app": "Clara",
           "competitor": "Depende de la configuración"
         },
         {
           "feature": "Contexto de precio dentro de la colección",
-          "inmoedit": true,
+          "app": true,
           "competitor": "Parcial"
         }
       ]
