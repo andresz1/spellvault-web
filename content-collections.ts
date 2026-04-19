@@ -29,60 +29,6 @@ const docs = defineCollection({
   },
 });
 
-const tutorials = defineCollection({
-  name: "tutorials",
-  directory: "src/collections/tutorials",
-  include: "**/*.mdx",
-  schema: z.object({
-    id: z.string(),
-    title: z.string(),
-    short: z.string().optional(),
-    description: z.string(),
-    category: z.string(),
-    content: z.string(),
-    author: z.string().optional().default("Inmoedit"),
-    avatar: z.string().optional(),
-    date: z.string().optional(),
-  }),
-  transform: (tutorial) => {
-    const segments = {
-      es: "tutoriales",
-      en: "tutorials",
-      pt: "tutoriais",
-      fr: "tutoriels",
-      it: "tutorial",
-      de: "anleitungen",
-    } as Record<string, string>;
-
-    const [locale, slug] = tutorial._meta.path.split("/");
-    const pathname = `/${segments[locale]}/${slug}`;
-
-    const words = tutorial.content.trim().split(/\s+/).length;
-    const readingTime = Math.max(1, Math.ceil(words / 200));
-
-    const headingRegex = /^(#{2,3})\s+(.+)$/gm;
-    const headings: { depth: number; text: string; slug: string }[] = [];
-    const slugger = new GithubSlugger();
-    let match: RegExpExecArray | null;
-
-    while ((match = headingRegex.exec(tutorial.content)) !== null) {
-      const text = match[2]
-        .replace(/\*\*([^*]+)\*\*/g, "$1")
-        .replace(/\*([^*]+)\*/g, "$1")
-        .replace(/__([^_]+)__/g, "$1")
-        .replace(/_([^_]+)_/g, "$1")
-        .replace(/`([^`]*)`/g, "$1");
-      headings.push({
-        depth: match[1].length,
-        text,
-        slug: slugger.slug(text),
-      });
-    }
-
-    return { ...tutorial, locale, pathname, slug, readingTime, headings };
-  },
-});
-
 const landings = defineCollection({
   name: "landings",
   directory: "src/collections/landings",
@@ -217,5 +163,5 @@ const landings = defineCollection({
 });
 
 export default defineConfig({
-  collections: [docs, tutorials, landings],
+  collections: [docs, landings],
 });

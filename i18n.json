@@ -3,7 +3,7 @@
   "version": "1.10",
   "locale": {
     "source": "es",
-    "targets": ["en", "pt", "fr", "it", "de"]
+    "targets": ["en"]
   },
   "buckets": {
     "json": {
