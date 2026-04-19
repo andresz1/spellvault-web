@@ -1,59 +1,34 @@
 {
   "id": "mtg-price-tracker",
-  "title": "MTG Price Tracker",
+  "title": "MTG Price Tracker App for iPhone",
   "short": "MTG Price Tracker",
-  "description": "Track MTG prices over time.",
+  "description": "MTG Price Tracker App for iPhone. Track Magic card prices, monitor collection value, and follow price changes over time with Spellvault.",
   "hero": {
-    "title": "MTG Price Tracker",
-    "description": "Track card movement, collection value, and market changes with more context.",
+    "title": "MTG Price Tracker App",
+    "description": "Track MTG card prices over time, watch collection value move, and keep price data connected to the cards you own.",
     "rating": "+1000 users love it"
   },
   "sections": [
     {
       "type": "features",
-      "title": "An <strong>MTG price tracker</strong> that stays useful",
-      "description": "Follow movement over time without separating value from inventory.",
+      "title": "The best <strong>MTG Price Tracker App</strong>",
+      "description": "Spellvault makes price tracking useful by connecting market movement, duplicate visibility, and collection value in one place.",
       "items": [
         {
-          "title": "Track price movement",
-          "description": "Follow changes over time instead of relying on one-off checks.",
+          "title": "Track price movement over time",
+          "description": "Follow how important cards change instead of relying on a single price snapshot that tells you very little.",
           "button": "Download",
           "icon": "bar-chart-2"
         },
         {
-          "title": "Watch collection value",
-          "description": "See how your total MTG collection changes as the market moves.",
+          "title": "Monitor total collection value",
+          "description": "See how the value of your MTG collection changes while still understanding the cards behind those moves.",
           "button": "Download",
           "icon": "wallet-cards"
         },
         {
-          "title": "Catch useful alerts",
-          "description": "Stay on top of cards worth buying, holding, or selling.",
-          "button": "Download",
-          "icon": "bell-ring"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Tracking built for <strong>cards you actually own</strong>",
-      "description": "Spellvault helps you follow movement over time while keeping the inventory behind that value visible and usable.",
-      "items": [
-        {
-          "title": "Watch individual cards over time",
-          "description": "See how important cards move instead of relying on one isolated price snapshot.",
-          "button": "Download",
-          "icon": "bar-chart-2"
-        },
-        {
-          "title": "Follow total collection value",
-          "description": "Keep an eye on the bigger picture while still understanding the cards behind the change.",
-          "button": "Download",
-          "icon": "wallet-cards"
-        },
-        {
-          "title": "React faster to changes",
-          "description": "Use alerts and price context to decide what to hold, list, buy, or revisit.",
+          "title": "Use price changes as signals",
+          "description": "Spot cards worth reviewing and use price movement to support better buy, sell, trade, or hold decisions.",
           "button": "Download",
           "icon": "bell-ring"
         }
@@ -61,30 +36,46 @@
     },
     {
       "type": "banner",
-      "title": "Track MTG prices with better context",
-      "description": "Spellvault keeps card prices and collection structure together.",
+      "title": "Track MTG prices without losing collection context",
+      "description": "Spellvault keeps card prices, duplicates, and inventory structure connected, so price tracking stays practical.",
       "button": "Download"
     },
     {
       "type": "faqs",
       "title": "Frequently Asked Questions",
-      "description": "Key answers about using Spellvault as an MTG price tracker.",
+      "description": "Helpful answers about using Spellvault as your MTG Price Tracker App.",
       "items": [
         {
           "title": "What is an MTG price tracker?",
-          "description": "An MTG price tracker helps you follow price movement over time instead of checking cards one by one in isolation."
+          "description": "An MTG price tracker helps you follow card values over time, so you can understand movement, trends, and changes across your collection."
         },
         {
-          "title": "Does Spellvault track total collection value?",
-          "description": "Yes. You can follow both individual cards and the combined value of the collection."
+          "title": "How is an MTG price tracker different from an MTG price checker?",
+          "description": "A price checker gives you a quick value right now. A price tracker helps you understand how prices move over time and what those changes mean."
         },
         {
-          "title": "Can I use alerts for price movement?",
-          "description": "Yes. Spellvault is designed to make important price changes easier to notice and act on."
+          "title": "Can Spellvault track total MTG collection value?",
+          "description": "Yes. Spellvault helps you follow both individual card movement and the combined value of your full collection."
         },
         {
-          "title": "Why is tracking better than checking once?",
-          "description": "Because trends and movement over time give you much better context than a single price snapshot."
+          "title": "Can I track specific MTG cards over time?",
+          "description": "Yes. Spellvault makes it easier to keep an eye on important cards instead of relying on one isolated price lookup."
+        },
+        {
+          "title": "Does Spellvault help me spot selling or trading opportunities?",
+          "description": "Yes. Price movement is more useful when it is connected to the copies you own, which helps you decide what deserves action."
+        },
+        {
+          "title": "Can I see duplicates while tracking card prices?",
+          "description": "Yes. Spellvault keeps price tracking tied to your collection, so duplicate visibility and price movement work together."
+        },
+        {
+          "title": "Is Spellvault useful for collectors, sellers, and stores?",
+          "description": "Yes. Anyone managing real MTG inventory can benefit from tracking value over time instead of checking price only when it becomes urgent."
+        },
+        {
+          "title": "Why is price tracking better than a spreadsheet alone?",
+          "description": "A spreadsheet can store numbers, but Spellvault keeps pricing connected to card identity, duplicates, locations, and the rest of your collection workflow."
         }
       ]
     }

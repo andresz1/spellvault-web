@@ -1,59 +1,34 @@
 {
   "id": "mtg-collection-tracker",
-  "title": "MTG Collection Tracker",
+  "title": "MTG Collection Tracker App for iPhone",
   "short": "MTG Collection Tracker",
-  "description": "Track your MTG collection in one app.",
+  "description": "MTG Collection Tracker App for iPhone. Organize Magic cards, binders, decks, duplicates, and collection value in one place with Spellvault.",
   "hero": {
-    "title": "MTG Collection Tracker",
-    "description": "Track cards, binders, decks, and collection value with less chaos.",
+    "title": "MTG Collection Tracker App",
+    "description": "Track cards, binders, decks, duplicates, and value from one organized Magic collection app.",
     "rating": "+1000 users love it"
   },
   "sections": [
     {
       "type": "features",
-      "title": "A clearer <strong>MTG collection tracker</strong>",
-      "description": "Keep your collection structured and searchable without rebuilding it by hand.",
+      "title": "The best <strong>MTG Collection Tracker App</strong>",
+      "description": "Spellvault keeps your MTG collection searchable, structured, and easy to manage as cards move between decks, binders, and storage.",
       "items": [
         {
-          "title": "Track binders and decks",
-          "description": "Organize your collection the way you actually store and use it.",
+          "title": "Organize cards the way you store them",
+          "description": "Manage binders, decks, folders, and boxes in a way that matches how your collection actually lives in the real world.",
           "button": "Download",
           "icon": "library-big"
         },
         {
-          "title": "Find cards faster",
-          "description": "Search by card, set, folder, or tag with less friction.",
-          "button": "Download",
-          "icon": "search-check"
-        },
-        {
-          "title": "Keep everything connected",
-          "description": "Inventory, structure, and value stay in one place.",
-          "button": "Download",
-          "icon": "folder-kanban"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Made for <strong>living MTG collections</strong>",
-      "description": "Spellvault helps when your cards are spread across play decks, trade binders, long boxes, and projects that keep changing.",
-      "items": [
-        {
-          "title": "Track real collection structure",
-          "description": "Keep decks, folders, boxes, and binders connected instead of managing each area in isolation.",
-          "button": "Download",
-          "icon": "library-big"
-        },
-        {
-          "title": "Spot extra copies faster",
-          "description": "Use duplicate visibility to understand what you can trade, sell, or move between setups.",
+          "title": "See duplicates and card locations",
+          "description": "Know how many copies you own and where they are, so trading, selling, and deck building become much easier.",
           "button": "Download",
           "icon": "repeat-2"
         },
         {
-          "title": "Keep value attached to the collection",
-          "description": "Follow card and collection value without losing the structure behind it.",
+          "title": "Keep value attached to your collection",
+          "description": "Track card value and total collection value without separating prices from the collection structure behind them.",
           "button": "Download",
           "icon": "wallet-cards"
         }
@@ -61,30 +36,46 @@
     },
     {
       "type": "banner",
-      "title": "Track your collection with more clarity",
-      "description": "Spellvault helps you keep inventory, decks, and folders easier to manage.",
+      "title": "Track your whole MTG collection in one app",
+      "description": "Use Spellvault to keep inventory, search, pricing, and collection structure together from the first card to the last box.",
       "button": "Download"
     },
     {
       "type": "faqs",
       "title": "Frequently Asked Questions",
-      "description": "What people usually ask about using Spellvault as an MTG collection tracker.",
+      "description": "Helpful answers about using Spellvault as your MTG Collection Tracker App.",
       "items": [
         {
           "title": "What does an MTG collection tracker do?",
-          "description": "It helps you keep card inventory, collection structure, and value organized in one place."
+          "description": "An MTG collection tracker helps you organize cards, structure your collection, search what you own, and follow value from one place."
         },
         {
-          "title": "Can I track decks and binders?",
-          "description": "Yes. Spellvault is built for real collection setups, including decks, binders, boxes, and lists."
+          "title": "Can I track decks, binders, and boxes?",
+          "description": "Yes. Spellvault is designed for real collection setups, so you can manage cards across decks, binders, folders, and long term storage."
         },
         {
-          "title": "Can I manage large collections?",
-          "description": "Yes. The bigger the collection, the more useful it is to keep everything searchable and structured."
+          "title": "Can Spellvault handle large MTG collections?",
+          "description": "Yes. The bigger your collection gets, the more important it becomes to keep everything searchable, structured, and easy to review."
         },
         {
-          "title": "Does Spellvault help with duplicates?",
-          "description": "Yes. Tracking duplicates is one of the easiest ways to understand what you can trade or sell."
+          "title": "Does Spellvault help with duplicate MTG cards?",
+          "description": "Yes. Duplicate visibility helps you see what you can trade, sell, move, or keep for decks and future projects."
+        },
+        {
+          "title": "Can I keep collection value and inventory together?",
+          "description": "Yes. Spellvault makes it easier to follow value without losing the collection context that gives those numbers meaning."
+        },
+        {
+          "title": "Can I search my collection quickly inside Spellvault?",
+          "description": "Yes. Search is part of the collection workflow, which means you can find cards faster by name, set, tag, or location."
+        },
+        {
+          "title": "Is Spellvault useful for collectors, sellers, and stores?",
+          "description": "Yes. Anyone managing a real MTG collection can benefit from stronger structure, faster search, and better visibility into duplicates and value."
+        },
+        {
+          "title": "Why use Spellvault instead of a spreadsheet for collection tracking?",
+          "description": "A spreadsheet can store rows, but Spellvault keeps scanning, organization, search, duplicates, and collection value connected in one practical workflow."
         }
       ]
     }

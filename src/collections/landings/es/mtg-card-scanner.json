@@ -1,59 +1,34 @@
 {
   "id": "mtg-card-scanner",
-  "title": "MTG Card Scanner",
+  "title": "MTG Card Scanner App para iPhone",
   "short": "MTG Card Scanner",
-  "description": "Escanea cartas MTG rápido con Spellvault.",
+  "description": "MTG Card Scanner App para iPhone. Escanea cartas de Magic: The Gathering, identifica set y edición, consulta precios y añade cartas a tu colección más rápido con Spellvault.",
   "hero": {
-    "title": "MTG Card Scanner",
-    "description": "Escanea cartas Magic rápido y conviértelas en inventario limpio.",
+    "title": "MTG Card Scanner App",
+    "description": "Escanea cartas Magic en segundos, identifica el set y la edición correctos, y mete cada carta en una colección limpia.",
     "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
       "type": "features",
-      "title": "Un mejor <strong>MTG card scanner</strong>",
-      "description": "Pensado para entradas rápidas, identificación clara y registros listos para la colección.",
+      "title": "La mejor <strong>MTG Card Scanner App</strong>",
+      "description": "Spellvault te ayuda a escanear más rápido, reconocer la impresión correcta y mover cada carta a tu colección sin entrada manual.",
       "items": [
         {
-          "title": "Flujo de cámara rápido",
-          "description": "Escanea cartas seguidas sin frenar el ritmo.",
+          "title": "Escaneo rápido con cámara",
+          "description": "Escanea cartas seguidas con un flujo ágil en iPhone que funciona bien para cajas, binders y sesiones grandes.",
           "button": "Descarga la app",
           "icon": "scan-search"
         },
         {
-          "title": "Identificación limpia",
-          "description": "Mantén nombres y referencias bien organizados desde el inicio.",
+          "title": "Reconocimiento preciso de cartas",
+          "description": "Identifica nombre, set y edición en pocos segundos para empezar con datos más limpios y menos correcciones después.",
           "button": "Descarga la app",
           "icon": "search-check"
         },
         {
-          "title": "Listo para inventario",
-          "description": "Lleva las cartas escaneadas directo a tu flujo de colección.",
-          "button": "Descarga la app",
-          "icon": "library-big"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Pensado para <strong>entradas reales de MTG</strong>",
-      "description": "Spellvault encaja en sesiones de binder, compras de colección y catalogación rápida cuando las cartas deben pasar pronto al inventario.",
-      "items": [
-        {
-          "title": "Soporta sesiones de escaneo grandes",
-          "description": "Recorre montones, cajas o binders sin convertir la entrada en una tarea manual lenta.",
-          "button": "Descarga la app",
-          "icon": "scan-search"
-        },
-        {
-          "title": "Empieza con registros más limpios",
-          "description": "Parte de una mejor identificación para que la organización y los precios exijan menos limpieza después.",
-          "button": "Descarga la app",
-          "icon": "search-check"
-        },
-        {
-          "title": "Pasa directo al trabajo de inventario",
-          "description": "Después de escanear puedes seguir con estructura, duplicados y valor dentro de la misma app.",
+          "title": "Registros listos para tu colección",
+          "description": "Cada carta escaneada puede pasar directo a tu inventario, decks, carpetas o binders dentro de la misma app.",
           "button": "Descarga la app",
           "icon": "library-big"
         }
@@ -61,30 +36,46 @@
     },
     {
       "type": "banner",
-      "title": "Escanea cartas sin fricción de hojas de cálculo",
-      "description": "Usa Spellvault para capturar cartas rápido y mantener el inventario en movimiento.",
+      "title": "Escanea cartas MTG más rápido en iPhone",
+      "description": "Usa Spellvault para escanear binders, cajas y lotes de colección en un solo sitio, y luego seguir con organización, precios y control de colección.",
       "button": "Descarga la app"
     },
     {
       "type": "faqs",
       "title": "Preguntas frecuentes",
-      "description": "Respuestas rápidas sobre Spellvault como MTG card scanner.",
+      "description": "Respuestas útiles sobre Spellvault como tu MTG Card Scanner App.",
       "items": [
         {
-          "title": "¿Qué es un MTG card scanner?",
-          "description": "Un MTG card scanner te ayuda a capturar cartas Magic y convertirlas en registros de colección mucho más rápido."
+          "title": "¿Qué es una MTG Card Scanner App?",
+          "description": "Una MTG Card Scanner App usa la cámara del móvil para identificar cartas de Magic: The Gathering y convertirlas en registros de colección mucho más rápido que la entrada manual."
         },
         {
-          "title": "¿Por qué usar Spellvault como MTG card scanner?",
-          "description": "Porque Spellvault une escaneo, inventario y gestión de colección en un solo flujo."
+          "title": "¿Cómo escanea cartas MTG Spellvault?",
+          "description": "Spellvault usa la cámara de tu iPhone para leer la carta y compararla con datos de Magic, así puedes capturar los detalles de la carta en pocos segundos."
         },
         {
-          "title": "¿Puedo escanear muchas cartas en una sesión?",
-          "description": "Sí. Spellvault está pensado para cajas, binders o lotes completos de colección."
+          "title": "¿Spellvault identifica el set y la edición?",
+          "description": "Sí. Spellvault está pensado para reconocer más que el nombre de la carta, lo que ayuda a guardar la versión correcta y mantener la colección más limpia."
         },
         {
-          "title": "¿Puedo organizar las cartas después de escanear?",
-          "description": "Sí. El escaneo es solo el primer paso y después puedes seguir construyendo la estructura de la colección."
+          "title": "¿Puedo escanear una caja completa de cartas MTG en una sola sesión?",
+          "description": "Sí. Spellvault está preparado para sesiones de escaneo grandes, así puedes recorrer cajas, binders y lotes de colección sin convertir la entrada en una tarea lenta."
+        },
+        {
+          "title": "¿Spellvault muestra precios después de escanear?",
+          "description": "Sí. Una vez que la carta entra en tu colección, puedes revisar información de precio dentro del mismo flujo, sin saltar a otra herramienta."
+        },
+        {
+          "title": "¿Puedo organizar las cartas escaneadas en binders, carpetas o decks?",
+          "description": "Sí. Escanear es solo el primer paso. Después puedes colocar las cartas dentro de la estructura real que usas para gestionar tu colección."
+        },
+        {
+          "title": "¿Spellvault es una app de iPhone para escanear cartas MTG?",
+          "description": "Sí. Spellvault está hecha para iPhone, así que es una opción práctica si quieres escanear cartas rápido desde el móvil que ya usas en tu colección."
+        },
+        {
+          "title": "¿Por qué usar Spellvault en lugar de meter cartas a mano?",
+          "description": "La entrada manual tarda más, genera más fricción y suele obligarte a limpiar datos después. Spellvault acelera la entrada y mantiene unidos escaneo, organización y precios."
         }
       ]
     }

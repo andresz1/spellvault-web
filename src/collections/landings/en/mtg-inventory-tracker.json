@@ -1,59 +1,34 @@
 {
   "id": "mtg-inventory-tracker",
-  "title": "MTG Inventory Tracker",
+  "title": "MTG Inventory Tracker App for iPhone",
   "short": "MTG Inventory Tracker",
-  "description": "Track MTG inventory with less manual work.",
+  "description": "MTG Inventory Tracker App for iPhone. Track MTG stock, duplicates, storage locations, and exports from one organized inventory with Spellvault.",
   "hero": {
-    "title": "MTG Inventory Tracker",
-    "description": "Track copies, folders, stock, and exports from one cleaner inventory view.",
+    "title": "MTG Inventory Tracker App",
+    "description": "Track copies, stock, locations, and exports from one clear MTG inventory view.",
     "rating": "+1000 users love it"
   },
   "sections": [
     {
       "type": "features",
-      "title": "A simpler <strong>MTG inventory tracker</strong>",
-      "description": "Use one place to keep cards, stock movement, and collection exports organized.",
+      "title": "The best <strong>MTG Inventory Tracker App</strong>",
+      "description": "Spellvault helps you manage real card inventory, so you always know what you own, where it is, and what is available.",
       "items": [
         {
-          "title": "Track copies clearly",
-          "description": "Know what you own, where it lives, and what is available.",
+          "title": "Track copies and stock",
+          "description": "See how many copies you own, which cards are repeated, and what inventory is available for trade, sale, or storage.",
           "button": "Download",
           "icon": "repeat-2"
         },
         {
-          "title": "Export when needed",
-          "description": "Prepare inventory for review, sharing, or backup in less time.",
-          "button": "Download",
-          "icon": "file-text"
-        },
-        {
-          "title": "Keep inventory usable",
-          "description": "Move from raw stock to a cleaner collection system.",
-          "button": "Download",
-          "icon": "folder-kanban"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Inventory control for <strong>real card volume</strong>",
-      "description": "Useful inventory tracking needs more than totals. Spellvault helps you understand copies, availability, and where cards actually live.",
-      "items": [
-        {
-          "title": "Know what is available",
-          "description": "See repeated copies and usable stock without rebuilding spreadsheets every time cards move.",
-          "button": "Download",
-          "icon": "repeat-2"
-        },
-        {
-          "title": "Keep storage locations clear",
-          "description": "Track folders, binders, boxes, and sale inventory so card locations stay easy to follow.",
+          "title": "Keep storage locations organized",
+          "description": "Track boxes, binders, folders, and sale inventory so your card locations stay clear as inventory changes.",
           "button": "Download",
           "icon": "folder-kanban"
         },
         {
-          "title": "Export when it matters",
-          "description": "Prepare inventory for review, backup, or sales workflows with much less manual cleanup.",
+          "title": "Export inventory when needed",
+          "description": "Prepare inventory for review, backup, sharing, or sales workflows without rebuilding everything by hand.",
           "button": "Download",
           "icon": "file-text"
         }
@@ -61,30 +36,46 @@
     },
     {
       "type": "banner",
-      "title": "Track MTG inventory without the mess",
-      "description": "Spellvault helps you keep cards, copies, and exports easier to manage.",
+      "title": "Manage MTG inventory with less manual work",
+      "description": "Use Spellvault to keep inventory, duplicates, exports, and storage locations easier to understand and easier to maintain.",
       "button": "Download"
     },
     {
       "type": "faqs",
       "title": "Frequently Asked Questions",
-      "description": "What matters most about using Spellvault as an MTG inventory tracker.",
+      "description": "Helpful answers about using Spellvault as your MTG Inventory Tracker App.",
       "items": [
         {
           "title": "What is an MTG inventory tracker?",
-          "description": "An MTG inventory tracker helps you manage cards, copies, locations, and stock in a more usable way."
+          "description": "An MTG inventory tracker helps you manage cards, copies, locations, and stock in a way that is more useful than a simple list."
         },
         {
-          "title": "Can I track duplicates and stock levels?",
-          "description": "Yes. Spellvault makes it easier to see repeated copies and understand what is available."
+          "title": "Can I track duplicate cards and stock levels?",
+          "description": "Yes. Spellvault makes it easier to see repeated copies, understand what is available, and decide what can move to sale or trade."
         },
         {
-          "title": "Can I export my inventory?",
-          "description": "Yes. Inventory exports are useful for sharing, reviewing, and keeping a backup."
+          "title": "Can I track boxes, binders, and sale inventory?",
+          "description": "Yes. Spellvault is designed for real inventory structure, so you can keep storage and sale locations clearer over time."
         },
         {
-          "title": "Is this useful for stores and sellers?",
-          "description": "Yes. A cleaner inventory is valuable whether you collect privately or manage cards for sale."
+          "title": "Can I export my MTG inventory?",
+          "description": "Yes. Inventory exports are useful for backups, review, sharing, and workflows that require your card data outside the app."
+        },
+        {
+          "title": "Is Spellvault useful for MTG stores and sellers?",
+          "description": "Yes. Sellers and stores benefit from stronger inventory visibility, duplicate tracking, and cleaner location data."
+        },
+        {
+          "title": "Does Spellvault help keep storage locations clear?",
+          "description": "Yes. Spellvault helps you connect cards to folders, binders, boxes, and other storage areas, so locations stay easier to follow."
+        },
+        {
+          "title": "Can I use inventory tracking together with price tracking?",
+          "description": "Yes. Spellvault keeps inventory and pricing close together, so you can manage stock without losing the value context around it."
+        },
+        {
+          "title": "Why use Spellvault instead of a spreadsheet for MTG inventory?",
+          "description": "Spreadsheets can list cards, but Spellvault helps you manage duplicates, locations, exports, and collection context in a workflow built for MTG inventory."
         }
       ]
     }

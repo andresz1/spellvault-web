@@ -1,59 +1,34 @@
 {
   "id": "mtg-price-checker",
-  "title": "MTG Price Checker",
+  "title": "MTG Price Checker App para iPhone",
   "short": "MTG Price Checker",
-  "description": "Consulta precios MTG rápidamente.",
+  "description": "MTG Price Checker App para iPhone. Consulta precios de cartas Magic, compáralos con tu colección y toma mejores decisiones de compra, venta e intercambio con Spellvault.",
   "hero": {
-    "title": "MTG Price Checker",
-    "description": "Consulta precios de cartas Magic rápido y decide con más contexto.",
+    "title": "MTG Price Checker App",
+    "description": "Consulta precios de cartas Magic rápido, compáralos con tus propias copias y decide mejor qué hacer con tu colección.",
     "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
       "type": "features",
-      "title": "Un mejor <strong>MTG price checker</strong>",
-      "description": "Consulta valor rápido sin perder el contexto de tu colección.",
+      "title": "La mejor <strong>MTG Price Checker App</strong>",
+      "description": "Spellvault te da precios rápidos con contexto de colección, para que cada consulta sea más clara y más útil.",
       "items": [
         {
-          "title": "Chequeos rápidos",
-          "description": "Revisa precios sin saltar entre herramientas desconectadas.",
+          "title": "Consulta precios de cartas al momento",
+          "description": "Revisa el valor de una carta rápido, sin ir saltando entre herramientas desconectadas ni perder el contexto de lo que estás mirando.",
           "button": "Descarga la app",
           "icon": "bar-chart-2"
         },
         {
-          "title": "Contexto de colección",
-          "description": "Entiende el precio junto a tus copias y al resto del inventario.",
+          "title": "Contexto de precio dentro de tu colección",
+          "description": "Mira la información de precio junto a tus copias, duplicados y estructura de inventario para entender mejor cada valor.",
           "button": "Descarga la app",
           "icon": "wallet-cards"
         },
         {
-          "title": "Decisiones más limpias",
-          "description": "Ten más claro qué merece la pena revisar, guardar o mover.",
-          "button": "Descarga la app",
-          "icon": "bell-ring"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Precios con <strong>contexto real de inventario</strong>",
-      "description": "Consultar valor es más útil cuando ves el resto de la colección alrededor y no solo un número aislado.",
-      "items": [
-        {
-          "title": "Ve qué merece revisión",
-          "description": "Encuentra las cartas que requieren atención en vez de saltar entre herramientas desconectadas.",
-          "button": "Descarga la app",
-          "icon": "bar-chart-2"
-        },
-        {
-          "title": "Compara valor con tus copias",
-          "description": "Sabe cuántas copias tienes y dónde están mientras revisas la información de precio.",
-          "button": "Descarga la app",
-          "icon": "wallet-cards"
-        },
-        {
-          "title": "Decide qué mover después",
-          "description": "Usa el contexto de precio para comprar, vender, intercambiar o guardar con menos dudas.",
+          "title": "Mejores decisiones de compra, venta e intercambio",
+          "description": "Usa las consultas de precio para saber qué mover, qué guardar y qué cartas merecen más atención dentro de tu colección.",
           "button": "Descarga la app",
           "icon": "bell-ring"
         }
@@ -61,30 +36,46 @@
     },
     {
       "type": "banner",
-      "title": "Consulta precios MTG con menos dudas",
-      "description": "Spellvault hace que revisar precios sea más rápido y más accionable.",
+      "title": "Consulta precios MTG con más contexto",
+      "description": "Ve precios, duplicados y datos de colección juntos, para reaccionar más rápido cuando cambia el valor de una carta.",
       "button": "Descarga la app"
     },
     {
       "type": "faqs",
       "title": "Preguntas frecuentes",
-      "description": "Respuestas cortas sobre Spellvault como MTG price checker.",
+      "description": "Respuestas útiles sobre Spellvault como tu MTG Price Checker App.",
       "items": [
         {
-          "title": "¿Qué es un MTG price checker?",
-          "description": "Un MTG price checker te ayuda a revisar precios rápido para comprar, guardar o vender mejor."
+          "title": "¿Qué es una MTG Price Checker App?",
+          "description": "Una MTG Price Checker App te ayuda a revisar el valor de cartas rápido para tomar mejores decisiones de compra, venta, intercambio y gestión de colección."
         },
         {
-          "title": "¿Por qué usar Spellvault para consultar precios?",
-          "description": "Porque conecta la consulta de precio con tu inventario real y eso hace la información más útil."
+          "title": "¿Por qué usar Spellvault en lugar de una web simple de precios?",
+          "description": "Spellvault mantiene el precio conectado a tu colección real, así puedes consultar valor viendo al mismo tiempo copias, duplicados y ubicaciones."
         },
         {
-          "title": "¿Puedo consultar precios mientras sigo mi colección?",
-          "description": "Sí. Esa es una de las ventajas principales frente a usar herramientas separadas."
+          "title": "¿Puedo consultar precios de cartas que ya tengo?",
+          "description": "Sí. Spellvault es especialmente útil cuando quieres revisar valor dentro del flujo de tu colección y no solo mirar una carta aislada."
         },
         {
-          "title": "¿Sirve también para vendedores?",
-          "description": "Sí. Consultar precios con contexto sirve tanto para coleccionar como para vender."
+          "title": "¿Spellvault ayuda a decidir qué comprar, vender o cambiar?",
+          "description": "Sí. Consultar el precio es más accionable cuando también ves cuántas copias tienes y cómo encajan dentro de tu colección."
+        },
+        {
+          "title": "¿Puedo ver duplicados mientras consulto precios MTG?",
+          "description": "Sí. Spellvault te ayuda a entender el precio junto a los duplicados, algo muy útil cuando decides qué vender, cambiar o guardar."
+        },
+        {
+          "title": "¿Sirve Spellvault para vendedores y tiendas MTG?",
+          "description": "Sí. Tiendas, vendedores y traders activos ganan contexto de inventario y menos trabajo manual al consultar precios dentro de la propia app."
+        },
+        {
+          "title": "¿Puedo usar Spellvault como price checker y collection tracker a la vez?",
+          "description": "Sí. Spellvault está pensado para conectar precios y gestión de colección, así no necesitas una app para precios y otra para inventario."
+        },
+        {
+          "title": "¿Spellvault solo sirve para consultar el precio de una carta suelta?",
+          "description": "No. Puedes revisar una carta concreta, pero también usar Spellvault para entender el precio dentro del resto de tu colección."
         }
       ]
     }

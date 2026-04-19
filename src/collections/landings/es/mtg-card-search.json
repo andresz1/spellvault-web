@@ -1,59 +1,34 @@
 {
   "id": "mtg-card-search",
-  "title": "MTG Card Search",
+  "title": "MTG Card Search App para iPhone",
   "short": "MTG Card Search",
-  "description": "Busca cartas MTG más rápido con Spellvault.",
+  "description": "MTG Card Search App para iPhone. Busca cartas Magic por nombre, set, etiqueta o ubicación y encuentra la copia exacta dentro de tu colección con Spellvault.",
   "hero": {
-    "title": "MTG Card Search",
-    "description": "Busca tus cartas Magic más rápido y encuentra lo importante sin rebuscar en binders.",
+    "title": "MTG Card Search App",
+    "description": "Encuentra la carta Magic exacta que necesitas, incluso cuando tu colección está repartida entre decks, binders, cajas y carpetas.",
     "rating": "+1000 usuarios la adoran"
   },
   "sections": [
     {
       "type": "features",
-      "title": "Un mejor <strong>MTG card search</strong>",
-      "description": "Spellvault te ayuda a pasar de inventario confuso a búsquedas rápidas y útiles.",
+      "title": "La mejor <strong>MTG Card Search App</strong>",
+      "description": "Spellvault convierte tu colección en un sistema de búsqueda real, para encontrar la carta correcta por nombre, set, etiqueta o ubicación.",
       "items": [
         {
-          "title": "Busca por carta",
-          "description": "Encuentra cartas por nombre sin revisar carpetas manualmente.",
+          "title": "Busca por nombre de carta y set",
+          "description": "Encuentra cartas rápido cuando sabes lo que buscas y quieres dar con la versión correcta sin revisar almacenamiento a mano.",
           "button": "Descarga la app",
           "icon": "search-check"
         },
         {
-          "title": "Busca por contexto",
-          "description": "Usa filtros como set, etiqueta o ubicación cuando necesitas precisión.",
+          "title": "Busca con etiquetas y contexto de almacenamiento",
+          "description": "Combina carpetas, etiquetas, sets y ubicaciones para que la búsqueda funcione mejor en colecciones reales con muchas piezas.",
           "button": "Descarga la app",
           "icon": "library-big"
         },
         {
-          "title": "Encuentra cartas antes",
-          "description": "Convierte tu colección en algo realmente navegable.",
-          "button": "Descarga la app",
-          "icon": "zap"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Una búsqueda útil en <strong>colecciones reales</strong>",
-      "description": "Buscar cartas de verdad es más que escribir un nombre. Spellvault ayuda cuando la colección está repartida entre decks, cajas, carpetas y duplicados.",
-      "items": [
-        {
-          "title": "Busca más allá de lo obvio",
-          "description": "Encuentra cartas con más contexto que solo la memoria, sobre todo cuando la colección crece.",
-          "button": "Descarga la app",
-          "icon": "search-check"
-        },
-        {
-          "title": "Usa la estructura como parte de la búsqueda",
-          "description": "Combina carpetas, etiquetas, ediciones y ubicaciones para encontrar la copia exacta.",
-          "button": "Descarga la app",
-          "icon": "library-big"
-        },
-        {
-          "title": "Convierte la búsqueda en acción",
-          "description": "Cuando encuentras una carta, puedes seguir hacia precios, organización o decisiones de deck.",
+          "title": "Encuentra la copia exacta más rápido",
+          "description": "Spellvault te ayuda a pasar de la búsqueda a la acción, tanto si estás construyendo decks como si revisas precios o inventario.",
           "button": "Descarga la app",
           "icon": "zap"
         }
@@ -61,30 +36,46 @@
     },
     {
       "type": "banner",
-      "title": "Busca tu colección MTG con menos fricción",
-      "description": "Spellvault te da búsquedas más rápidas dentro de un inventario mucho más claro.",
+      "title": "Busca tu colección MTG en segundos",
+      "description": "Usa Spellvault para encontrar cartas más rápido y dejar de perder tiempo revisando binders, cajas y decks a mano.",
       "button": "Descarga la app"
     },
     {
       "type": "faqs",
       "title": "Preguntas frecuentes",
-      "description": "Respuestas cortas sobre Spellvault como herramienta de MTG card search.",
+      "description": "Respuestas útiles sobre Spellvault como tu MTG Card Search App.",
       "items": [
         {
           "title": "¿Qué es MTG card search?",
-          "description": "MTG card search te ayuda a encontrar cartas dentro de tu colección sin depender de memoria o revisión manual."
+          "description": "MTG card search te ayuda a encontrar cartas dentro de tu colección más rápido, para no depender de la memoria ni de revisar todo a mano."
         },
         {
-          "title": "¿Puedo buscar por más cosas que el nombre?",
-          "description": "Sí. La búsqueda mejora mucho cuando puedes combinarla con estructura, etiquetas y contexto."
+          "title": "¿Puedo buscar por más cosas que el nombre de la carta?",
+          "description": "Sí. Spellvault hace la búsqueda más útil al combinar nombre con set, etiqueta, carpeta y ubicación."
         },
         {
-          "title": "¿Por qué usar Spellvault para buscar cartas?",
-          "description": "Porque la búsqueda vive en el mismo sitio donde escaneas, organizas y sigues tu colección."
+          "title": "¿Spellvault me ayuda a encontrar cartas dentro de decks, binders y cajas?",
+          "description": "Sí. La búsqueda es especialmente útil cuando tus cartas viven en distintas zonas de la colección y necesitas la copia exacta cuanto antes."
         },
         {
-          "title": "¿Sirve para colecciones grandes?",
-          "description": "Sí. Cuanto más crece la colección, más importante se vuelve poder buscar bien."
+          "title": "¿La búsqueda funciona mejor en colecciones grandes?",
+          "description": "Sí. Cuanto más crece tu colección, más valor tiene buscar por estructura en lugar de revisar todo manualmente."
+        },
+        {
+          "title": "¿Puedo usar la búsqueda después de escanear cartas nuevas?",
+          "description": "Sí. Spellvault mantiene escaneo y búsqueda dentro del mismo flujo, así que las cartas nuevas se vuelven fáciles de encontrar desde el primer momento."
+        },
+        {
+          "title": "¿Puedo buscar duplicados y ubicaciones de cartas?",
+          "description": "Sí. La búsqueda es más útil cuando no solo te dice qué carta es, sino también cuántas copias tienes y dónde están."
+        },
+        {
+          "title": "¿Por qué usar Spellvault en lugar de revisar binders a mano?",
+          "description": "Revisar binders a mano cada vez consume mucho tiempo cuando la colección crece. Spellvault te da una búsqueda más rápida y una estructura mucho más clara."
+        },
+        {
+          "title": "¿Spellvault sirve para deck building e intercambios?",
+          "description": "Sí. Una búsqueda rápida te ayuda a localizar la copia correcta para un deck, detectar opciones de intercambio y pasar a precios u organización sin salir de la app."
         }
       ]
     }
