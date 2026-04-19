@@ -10,11 +10,10 @@ import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/components/ui/core";
 import { Icon } from "@/components/ui/icon";
-import { Doc, Landing, Tutorial } from "#/.content-collections/generated";
+import { Doc, Landing } from "#/.content-collections/generated";
 
 export interface FooterProps extends ComponentPropsWithoutRef<"footer"> {
   docs?: Doc[];
-  tutorials?: Tutorial[];
   landings?: Landing[];
   alternates?: Record<string, string>;
 }
@@ -22,7 +21,6 @@ export interface FooterProps extends ComponentPropsWithoutRef<"footer"> {
 export const Footer = ({
   className,
   docs = [],
-  tutorials = [],
   landings = [],
   alternates,
   ...others
@@ -83,10 +81,6 @@ export const Footer = ({
     {
       title: t("footer.about.title"),
       links: [
-        {
-          text: t("footer.about.tutorials"),
-          href: tp("tutorials"),
-        },
         {
           text: t("footer.about.pricing"),
           href: "/pricing",

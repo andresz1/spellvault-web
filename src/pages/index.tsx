@@ -1,12 +1,6 @@
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import {
-  ArrowRight,
   Apple,
+  ArrowRight,
   BarChart2,
   BellRing,
   ChevronRight,
@@ -18,6 +12,7 @@ import {
   WalletCards,
   Zap,
 } from "lucide-react";
+import { GetServerSideProps } from "next";
 import Link from "next/link";
 import { Trans, useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -27,6 +22,12 @@ import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { CustomersMarquee } from "@/components/shared/customers-marquee";
 import { IPhoneFrame } from "@/components/shared/iphone-frame";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -39,17 +40,14 @@ import {
   allLandings,
   Doc,
   Landing,
-  Tutorial,
 } from "#/.content-collections/generated";
-import { GetServerSideProps } from "next";
 
 interface HomePageProps {
   docs: Doc[];
-  tutorials: Tutorial[];
   landings: Landing[];
 }
 
-export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
+export default function HomePage({ docs, landings }: HomePageProps) {
   const { t } = useTranslation("home");
 
   const icons: Record<string, React.ReactNode> = {
@@ -143,7 +141,9 @@ export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
 
             <div className="flex flex-col items-center gap-1">
               <Ratings value={5} variant="yellow" />
-              <p className="text-sm text-muted-foreground">{t("hero.rating")}</p>
+              <p className="text-sm text-muted-foreground">
+                {t("hero.rating")}
+              </p>
             </div>
           </div>
 
@@ -163,7 +163,9 @@ export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
                   t={t}
                   i18nKey="trust.title"
                   components={{
-                    strong: <strong className="font-semibold text-foreground" />,
+                    strong: (
+                      <strong className="font-semibold text-foreground" />
+                    ),
                   }}
                 />
               </h2>
@@ -186,7 +188,9 @@ export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
                 />
               </h2>
 
-              <p className="text-muted-foreground">{t("services.description")}</p>
+              <p className="text-muted-foreground">
+                {t("services.description")}
+              </p>
             </div>
 
             <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -223,7 +227,6 @@ export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
           </section>
         </Container>
 
-
         <Container className="py-4 md:py-8" asChild>
           <section>
             <div className="rounded-3xl bg-muted p-8 md:p-12">
@@ -232,7 +235,9 @@ export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
                   <h2 className="text-2xl font-bold md:text-3xl">
                     {t("banner.title")}
                   </h2>
-                  <p className="text-muted-foreground">{t("banner.description")}</p>
+                  <p className="text-muted-foreground">
+                    {t("banner.description")}
+                  </p>
                 </div>
 
                 <div className="shrink-0">
@@ -247,7 +252,9 @@ export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
           <section>
             <div className="space-y-2 text-center">
               <Badge variant="secondary">{t("faqs.badge")}</Badge>
-              <h2 className="text-2xl font-bold md:text-3xl">{t("faqs.title")}</h2>
+              <h2 className="text-2xl font-bold md:text-3xl">
+                {t("faqs.title")}
+              </h2>
             </div>
 
             <div className="mx-auto mt-8 max-w-3xl">
@@ -278,7 +285,7 @@ export default function HomePage({ tutorials, docs, landings }: HomePageProps) {
         </Container>
       </main>
 
-      <Footer tutorials={tutorials} docs={docs} landings={landings} />
+      <Footer docs={docs} landings={landings} />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Apple, Check, ChevronRight, MoveHorizontal, X } from "lucide-react";
 import { DynamicIcon, type IconName } from "lucide-react/dynamic";
+import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 import { Trans, useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -17,6 +18,7 @@ import {
 } from "@/components/ui/accordion";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Icon } from "@/components/ui/icon";
 import {
@@ -34,8 +36,6 @@ import {
   Landing,
   Tutorial,
 } from "#/.content-collections/generated";
-import { Button } from "@/components/ui/button";
-import { GetServerSideProps } from "next";
 
 interface LandingPageProps {
   tutorials: Tutorial[];
@@ -151,7 +151,6 @@ export default function LandingPage({
                 </p>
               </div>
             </div>
-
 
             <div className="pointer-events-none absolute top-0 left-1/2 h-1/2 w-full mix-blend-normal -translate-x-1/2 opacity-15 blur-[120px] bg-[conic-gradient(from_-81deg,#228cfb,#ce54cd_99deg,#e76267_162deg,#ff830c_216deg,#228cfb_288deg)]" />
           </div>
@@ -545,49 +544,43 @@ export default function LandingPage({
         </main>
       </Container>
 
-      <Footer
-        alternates={alternates}
-        docs={docs}
-        tutorials={tutorials}
-        landings={landings}
-      />
+      <Footer alternates={alternates} docs={docs} landings={landings} />
     </>
   );
 }
 
-export const getServerSideProps: GetServerSideProps =
-  async ({ locale: localeParam, params }) => {
-    const slug = params?.slug as string[] | undefined;
+export const getServerSideProps: GetServerSideProps = async ({
+  locale: localeParam,
+  params,
+}) => {
+  const slug = params?.slug as string[] | undefined;
 
-    if (!slug || slug.length === 0) {
-      return { notFound: true };
-    }
+  if (!slug || slug.length === 0) {
+    return { notFound: true };
+  }
 
-    const locale = localeParam as string;
-    const pathname = `/${slug.join("/")}`;
+  const locale = localeParam as string;
+  const pathname = `/${slug.join("/")}`;
 
-    const data = allLandings.find(
-      (landing) => landing.locale === locale && landing.pathname === pathname,
-    );
+  const data = allLandings.find(
+    (landing) => landing.locale === locale && landing.pathname === pathname,
+  );
 
-    if (!data) {
-      return { notFound: true };
-    }
+  if (!data) {
+    return { notFound: true };
+  }
 
-    const [i18n] = await Promise.all([
-      serverSideTranslations(locale as string, ["common", "landing"]),
-    ]);
+  const [i18n] = await Promise.all([
+    serverSideTranslations(locale as string, ["common", "landing"]),
+  ]);
 
-    return {
-      props: {
-        ...i18n,
-        data,
-        docs: allDocs.filter((doc) => doc.locale === locale),
-        tutorials: allTutorials.filter(
-          (tutorial) => tutorial.locale === locale,
-        ),
-        landings: allLandings.filter((landing) => landing.locale === locale),
-        alternates: allLandings.filter((landing) => landing.id === data.id),
-      },
-    };
+  return {
+    props: {
+      ...i18n,
+      data,
+      docs: allDocs.filter((doc) => doc.locale === locale),
+      landings: allLandings.filter((landing) => landing.locale === locale),
+      alternates: allLandings.filter((landing) => landing.id === data.id),
+    },
   };
+};

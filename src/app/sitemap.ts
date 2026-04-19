@@ -1,4 +1,4 @@
-import { allDocs, allLandings, allTutorials } from "content-collections";
+import { allDocs, allLandings } from "content-collections";
 import { MetadataRoute } from "next";
 
 import { i18n } from "#/next-i18next.config";

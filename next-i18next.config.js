@@ -1,8 +1,8 @@
 /** @type {import('next-i18next').UserConfig} */
 module.exports = {
   i18n: {
-    defaultLocale: "es",
-    locales: ["en", "es", "pt", "fr", "it", "de"],
+    defaultLocale: "en",
+    locales: ["en", "es"],
   },
   localePath:
     typeof window === "undefined"

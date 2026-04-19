@@ -1,3 +1,4 @@
+import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { MDXRemoteSerializeResult } from "next-mdx-remote";
@@ -8,21 +9,17 @@ import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { MDX, mdxOptions } from "@/components/shared/mdx";
 import { Container } from "@/components/ui/container";
-import { getAuthProps } from "@/server/middlewares/get-auth-props";
 import {
   allDocs,
   allLandings,
-  allTutorials,
   Doc,
   Landing,
-  Tutorial,
 } from "#/.content-collections/generated";
 
 export interface TutorialPageProps {
   doc: Doc;
   docs: Doc[];
   landings: Landing[];
-  tutorials: Tutorial[];
   alternates: Doc[];
   source: MDXRemoteSerializeResult;
 }
@@ -34,7 +31,6 @@ export default function TutorialPage({
   doc,
   source,
   landings,
-  tutorials,
   alternates: alternatesProps,
 }: TutorialPageProps) {
   const router = useRouter();
@@ -90,17 +86,15 @@ export default function TutorialPage({
         </main>
       </Container>
 
-      <Footer
-        alternates={alternates}
-        docs={docs}
-        tutorials={tutorials}
-        landings={landings}
-      />
+      <Footer alternates={alternates} docs={docs} landings={landings} />
     </>
   );
 }
 
-export const getServerSideProps = getAuthProps(async ({ locale, params }) => {
+export const getServerSideProps: GetServerSideProps = async ({
+  locale,
+  params,
+}) => {
   const slug = params?.slug as string;
 
   const doc = allDocs.find((doc) => {
@@ -114,9 +108,6 @@ export const getServerSideProps = getAuthProps(async ({ locale, params }) => {
   const docs = allDocs.filter((doc) => doc.locale === locale);
   const landings = allLandings.filter((landing) => {
     return landing.locale === locale;
-  });
-  const tutorials = allTutorials.filter((tutorial) => {
-    return tutorial.locale === locale;
   });
   const alternates = allDocs.filter((current) => current.id === doc.id);
 
@@ -134,8 +125,7 @@ export const getServerSideProps = getAuthProps(async ({ locale, params }) => {
       source,
       docs,
       landings,
-      tutorials,
       alternates,
     },
   };
-});
+};
