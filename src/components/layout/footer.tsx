@@ -87,7 +87,7 @@ export const Footer = ({
         },
         {
           text: t("footer.about.contact-us"),
-          href: "mailto:info@spellvault.com",
+          href: "mailto:info@spellvault.app",
         },
       ],
     },
