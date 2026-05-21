@@ -11,7 +11,7 @@ export interface TextGradientProps extends ComponentPropsWithoutRef<"strong"> {
 export function TextGradient({
   children,
   className,
-  gradient = "linear-gradient(to right, #228cfb, #ce54cd, #e76267, #ff830c)",
+  gradient = "linear-gradient(to right, #F0B100, #E1932D)",
   style,
   asChild,
   ...others
