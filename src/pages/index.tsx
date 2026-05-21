@@ -153,7 +153,18 @@ export default function HomePage({ docs, landings }: HomePageProps) {
               </div>
             </div>
 
-            <IPhoneFrame className="lg:ml-auto" />
+            <IPhoneFrame className="lg:ml-auto">
+              <video
+                aria-hidden="true"
+                autoPlay
+                className="h-full w-full object-cover"
+                loop
+                muted
+                playsInline
+                preload="metadata"
+                src="/hero.mp4?v=2"
+              />
+            </IPhoneFrame>
           </div>
         </Container>
 
