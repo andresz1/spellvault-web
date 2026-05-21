@@ -5,12 +5,13 @@ import { ComponentPropsWithoutRef } from "react";
 
 import { usePathTranslation } from "@/components/path";
 import { LangButton } from "@/components/shared/lang-button";
-import { LogoExtended } from "@/components/shared/logo-extended";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/components/ui/core";
 import { Icon } from "@/components/ui/icon";
 import { Doc, Landing } from "#/.content-collections/generated";
+
+import { Logo } from "../shared/logo";
 
 export interface FooterProps extends ComponentPropsWithoutRef<"footer"> {
   docs?: Doc[];
@@ -109,7 +110,7 @@ export const Footer = ({
         <div className="flex flex-col lg:flex-row gap-6 md:gap-14">
           <div className="flex-shrink-0 space-y-4 md:pr-20">
             <Link href="/">
-              <LogoExtended className="size-10" />
+              <Logo className="size-12" />
             </Link>
 
             <div className="space-x-2">

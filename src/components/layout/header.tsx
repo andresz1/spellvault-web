@@ -3,13 +3,11 @@ import { useTranslation } from "next-i18next";
 import { ComponentPropsWithoutRef } from "react";
 
 import { DownloadAppButton } from "@/components/shared/download-app-button";
+import { LangButton } from "@/components/shared/lang-button";
+import { Logo } from "@/components/shared/logo";
 import { ModeToggleButton } from "@/components/shared/mode-toggle-button";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/components/ui/core";
-
-import { LangButton } from "../shared/lang-button";
-import { Logo } from "../shared/logo";
-import { LogoExtended } from "../shared/logo-extended";
 
 export interface HeaderProps extends ComponentPropsWithoutRef<"header"> {
   alternates?: Record<string, string>;
@@ -32,9 +30,7 @@ export const Header = ({ className, alternates, ...others }: HeaderProps) => {
             className="flex gap-2 items-center underline-offset-4 hover:underline font-semibold text-lg notranslate"
             href="/"
           >
-            <Logo className="size-10 md:hidden" />
-
-            <LogoExtended className="hidden size-10 md:block" />
+            <Logo />
           </Link>
         </div>
 

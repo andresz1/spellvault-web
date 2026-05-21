@@ -1,19 +1,17 @@
+import Image from "next/image";
 import { ComponentPropsWithoutRef } from "react";
 
 import { cn } from "@/components/ui/core";
 
-export type LogoProps = ComponentPropsWithoutRef<"svg">;
+export type LogoProps = ComponentPropsWithoutRef<"div">;
 
 export const Logo = ({ className, ...others }: LogoProps) => {
   return (
-    <svg
-      aria-label="Spellvault"
-      className={cn("rounded-xl overflow-hidden", className)}
-      viewBox="0 0 40 40"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className={cn("rounded-md relative overflow-hidden size-10", className)}
       {...others}
     >
-      <rect width="40" height="40" fill="#000000" />
-    </svg>
+      <Image alt="Spellvault" src="/logo.png" fill />
+    </div>
   );
 };
