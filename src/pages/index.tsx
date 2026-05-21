@@ -157,7 +157,7 @@ export default function HomePage({ docs, landings }: HomePageProps) {
               <video
                 aria-hidden="true"
                 autoPlay
-                className="h-full w-full object-cover"
+                className="block h-full w-full object-cover"
                 loop
                 muted
                 playsInline

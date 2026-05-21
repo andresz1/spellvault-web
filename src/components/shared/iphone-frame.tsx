@@ -19,6 +19,21 @@ export const IPhoneFrame = ({
       )}
       {...others}
     >
+      <div
+        className="absolute z-10 overflow-hidden bg-neutral-100 dark:bg-neutral-900"
+        style={{
+          borderRadius: "14.31% / 6.61%",
+          height: "95.64%",
+          left: "4.91%",
+          top: "2.18%",
+          transform: "translateZ(0)",
+          WebkitMaskImage: "-webkit-radial-gradient(white, black)",
+          width: "89.95%",
+        }}
+      >
+        {children}
+      </div>
+
       <svg
         aria-label="iPhone 15 Pro"
         className="size-full drop-shadow-[0_30px_80px_rgba(15,23,42,0.28)]"
@@ -60,13 +75,15 @@ export const IPhoneFrame = ({
           className="fill-[#E5E5E5] stroke-[#E5E5E5] stroke-[0.5] dark:fill-[#404040] dark:stroke-[#404040]"
           d="M21.25 75C21.25 44.2101 46.2101 19.25 77 19.25H355C385.79 19.25 410.75 44.2101 410.75 75V807C410.75 837.79 385.79 862.75 355 862.75H77C46.2101 862.75 21.25 837.79 21.25 807V75Z"
         />
+      </svg>
 
-        <foreignObject x="21.25" y="19.25" width="389.5" height="843.5">
-          <div className="h-full w-full overflow-hidden rounded-[55.75px] bg-neutral-100 dark:bg-neutral-900">
-            {children}
-          </div>
-        </foreignObject>
-
+      <svg
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 z-20 size-full"
+        fill="none"
+        viewBox="0 0 433 882"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <path
           className="fill-[#E5E5E5] dark:fill-[#262626]"
           d="M154 48.5C154 38.2827 162.283 30 172.5 30H259.5C269.717 30 278 38.2827 278 48.5C278 58.7173 269.717 67 259.5 67H172.5C162.283 67 154 58.7173 154 48.5Z"
